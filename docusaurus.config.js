@@ -7,7 +7,13 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
+    gtag: {
+      trackingID: 'G-LD0YSGQ590',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     googleAnalytics: {
       trackingID: 'G-LD0YSGQ590',
       // Optional fields.
