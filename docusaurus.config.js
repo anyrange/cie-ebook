@@ -90,4 +90,12 @@ module.exports = {
       },
     ],
   ],
+  plugins: ['@docusaurus/plugin-google-analytics'],
+  themeConfig: {
+    googleAnalytics: {
+      trackingID: 'G-LD0YSGQ590',
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
+  },
 };
