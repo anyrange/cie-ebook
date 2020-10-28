@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'web version of book',
   url: 'https://nis-webbook.netlify.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'NIS-CWB', // Usually your repo name.
