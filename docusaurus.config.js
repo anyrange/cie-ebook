@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['@docusaurus/plugin-google-analytics'],
   title: 'NIS Chemistry WebBook',
   tagline: 'web version of book',
   url: 'https://nis-webbook.netlify.com',
@@ -8,6 +9,11 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'G-LD0YSGQ590',
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'NIS Chemistry WebBook',
       logo: {
@@ -90,12 +96,4 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['@docusaurus/plugin-google-analytics'],
-  themeConfig: {
-    googleAnalytics: {
-      trackingID: 'G-LD0YSGQ590',
-      // Optional fields.
-      anonymizeIP: false, // Should IPs be anonymized?
-    },
-  },
 };
