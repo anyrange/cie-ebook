@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'NIS Chemistry WebBook',
+  title: 'NIS-CWB',
   tagline: 'web version of book',
   url: 'https://nis-webbook.netlify.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'NIS-CWB', // Usually your repo name.
   themeConfig: {
     gtag: {
       trackingID: 'G-LD0YSGQ590',
@@ -25,12 +25,6 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -89,6 +83,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
