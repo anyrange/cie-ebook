@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ['@docusaurus/plugin-google-analytics'],
   title: 'NIS Chemistry WebBook',
   tagline: 'web version of book',
   url: 'https://nis-webbook.netlify.com',
