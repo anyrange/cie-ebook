@@ -5,9 +5,35 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'NIS-CWB', // Usually your repo name.
+  organizationName: 'wsehl', // Usually your GitHub org/user name.
+  projectName: 'nis-webbook', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+
+      // Should we use the prefers-color-scheme media-query,
+      // using user system preferences, instead of the hardcoded defaultMode
+      respectPrefersColorScheme: false,
+      switchConfig: {
+        darkIcon: '🌙',
+
+        // CSS to apply to dark icon,
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        darkIconStyle: {
+          marginLeft: '2px',
+        },
+
+        // Unicode icons such as '\u2600' will work
+        // Unicode with 5 chars require brackets: '\u{1F602}'
+        lightIcon: '⠀',
+
+        lightIconStyle: {
+          marginLeft: '1px',
+        },
+      },
+    },
     gtag: {
       trackingID: 'G-LD0YSGQ590',
       // Optional fields.
@@ -25,11 +51,13 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        /*
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
         },
+        */
       ],
     },
     footer: {
@@ -62,15 +90,6 @@ module.exports = {
             {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },

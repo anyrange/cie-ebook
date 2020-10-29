@@ -6,6 +6,9 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 :root {
   --ifm-color-primary: #54adcb;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -15,6 +18,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --ifm-container-width: 1555px;
 }
 
 .docusaurus-highlight-code-line {
@@ -22,4 +26,30 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.menu__link:hover {
+  background: 0;
+  color: var(--ifm-link-hover-color);
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.padding-vert--lg {
+  padding-top: 7px !important;
+}
+
+.pagination-nav__item + .pagination-nav__item {
+  margin-left: 400px;
 }

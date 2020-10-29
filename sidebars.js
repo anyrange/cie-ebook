@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Intorduction: ['home-page','doc1', 'doc2', 'doc3'],
+    Home: ['home-page', 'about', 'doc1', 'doc2', 'doc3'],
     Features: ['mdx'],
   },
 };

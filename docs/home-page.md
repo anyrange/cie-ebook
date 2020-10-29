@@ -1,7 +1,7 @@
 ---
 id: home-page
-title: Intoduction
-sidebar_label: Home
+title: Introduction
+sidebar_label: Introduction
 custom_edit_url: null
 slug: /
 ---
