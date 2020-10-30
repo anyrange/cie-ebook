@@ -59,6 +59,11 @@ body {
   box-shadow: rgba(0, 0, 0, 0.06) 0.2rem 0px 0.2rem;
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+.docSidebarContainer_3_JD {
+  background-color: var(--ifm-color-emphasis-100);
+  box-shadow: rgba(0, 0, 0, 0.06) 0.2rem 0px 0.2rem;
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: black; /* Color which works with dark mode syntax highlighting theme */
 }
