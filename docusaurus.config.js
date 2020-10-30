@@ -144,6 +144,7 @@ module.exports = {
         // When applying `zh` in language, please install `nodejieba` in your project.
       },
     ],
+<<<<<<< HEAD
     [
       '@docusaurus/plugin-pwa',
       {
@@ -168,5 +169,7 @@ module.exports = {
         ],
       },
     ],
+=======
+>>>>>>> parent of 323de69... sitemap/pwa
   ],
 };
