@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'wsehl', // Usually your GitHub org/user name.
   projectName: 'nis-webbook', // Usually your repo name.
+  titleDelimiter: '-',
   themeConfig: {
     colorMode: {
       defaultMode: 'light',
@@ -34,6 +35,16 @@ module.exports = {
         },
       },
     },
+    sidebarCollapsible: false,
+    announcementBar: {
+      id: 'support_us', // Any value that will identify this message.
+      content:
+        'work in progress',
+      backgroundColor: '#fafbfc', // Defaults to `#fff`.
+      textColor: '#091E42', // Defaults to `#000`.
+      isCloseable: false, // Defaults to `true`.
+    },
+    image: 'img/docusaurus.png',
     gtag: {
       trackingID: 'G-LD0YSGQ590',
       // Optional fields.
@@ -111,6 +122,25 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    // ... Your other plugins.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        docsRouteBasePath: "",
+        docsDir: "",
+        hashed: true,
+        indexBlog: false,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
       },
     ],
   ],

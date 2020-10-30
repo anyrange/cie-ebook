@@ -53,3 +53,12 @@ body {
 .pagination-nav__item + .pagination-nav__item {
   margin-left: 400px;
 }
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
+  background-color: var(--ifm-color-emphasis-100);
+  box-shadow: rgba(0, 0, 0, 0.06) 0.2rem 0px 0.2rem;
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: black; /* Color which works with dark mode syntax highlighting theme */
+}
