@@ -17,7 +17,7 @@ module.exports = {
       // using user system preferences, instead of the hardcoded defaultMode
       respectPrefersColorScheme: false,
       switchConfig: {
-        darkIcon: '🌙',
+        darkIcon: '⠀',
 
         // CSS to apply to dark icon,
         // React inline style object
@@ -39,10 +39,10 @@ module.exports = {
     announcementBar: {
       id: 'support_us', // Any value that will identify this message.
       content:
-        'work in progress',
+        'announcement',
       backgroundColor: '#fafbfc', // Defaults to `#fff`.
       textColor: '#091E42', // Defaults to `#000`.
-      isCloseable: false, // Defaults to `true`.
+      isCloseable: true, // Defaults to `true`.
     },
     image: 'img/docusaurus.png',
     gtag: {
@@ -139,7 +139,7 @@ module.exports = {
         docsDir: "docs",
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
-        // language: ["en", "zh"],
+        language: ["en", "ru"],
         // ```
         // When applying `zh` in language, please install `nodejieba` in your project.
       },

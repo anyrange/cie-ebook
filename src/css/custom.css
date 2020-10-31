@@ -8,6 +8,7 @@
 /* You can override the default Infima variables here. */
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fast.fonts.net/cssapi/0340becf-de91-4caa-9bd5-90b2ef07bbd3.css");
 
 :root {
   --ifm-color-primary: #54adcb;
@@ -33,7 +34,8 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, Verdana,
+    sans-serif;
 }
 
 .menu__link:hover {
@@ -47,11 +49,7 @@ body {
 }
 
 .padding-vert--lg {
-  padding-top: 7px !important;
-}
-
-.pagination-nav__item + .pagination-nav__item {
-  margin-left: 400px;
+  padding-top: 20px !important;
 }
 
 .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
@@ -66,4 +64,40 @@ body {
 
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: black; /* Color which works with dark mode syntax highlighting theme */
+}
+
+.react-toggle--checked .react-toggle-thumb,
+[data-theme="dark"] .react-toggle .react-toggle-thumb {
+  border-color: #29d !important;
+  background: url(https://static.wasd.tv/images/moon.png) 0 0 / contain
+    no-repeat;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pagination-nav__link {
+  /* border-color: var(--ifm-color-emphasis-300); */
+  border-radius: 0;
+  border-style: 0;
+  border-width: 0px;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  display: block;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.docTitle_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem- {
+  font-size: 2rem !important;
+}
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
+  padding-top: 5px !important;
+}
+
+a:hover {
+  text-decoration: none !important;
 }
