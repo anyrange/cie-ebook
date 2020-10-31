@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: home_3
 title: Style Guide
 sidebar_label: Style Guide
 custom_edit_url: null

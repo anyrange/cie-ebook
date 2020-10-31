@@ -1,5 +1,5 @@
 ---
-id: home-page
+id: home_1
 title: Home
 sidebar_label: Introduction
 custom_edit_url: null

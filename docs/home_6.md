@@ -1,6 +1,7 @@
 ---
-id: mdx
+id: home_6
 title: Powered by MDX
+sidebar_label: Powered by MDX
 custom_edit_url: null
 ---
 

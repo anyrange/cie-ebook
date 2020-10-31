@@ -1,6 +1,7 @@
 ---
-id: doc2
+id: home_4
 title: Document Number 2
+sidebar_label: Document Number 2
 custom_edit_url: null
 ---
 
