@@ -88,19 +88,28 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Docs',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Style Guide',
+              to: 'docs/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Second Doc',
+              to: 'docs/doc2/',
+            },
+          ],
+        },
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Style Guide',
+              to: 'docs/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Second Doc',
+              to: 'docs/doc2/',
             },
           ],
         },
