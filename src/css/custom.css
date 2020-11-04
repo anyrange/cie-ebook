@@ -111,16 +111,6 @@ a:hover {
   text-decoration: none !important;
 }
 
-.navbar--fixed-top {
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
-.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
-  width: 315px !important;
-  padding-left: 4vw !important;
-}
-
 .react-toggle-track {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
