@@ -10,6 +10,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fast.fonts.net/cssapi/0340becf-de91-4caa-9bd5-90b2ef07bbd3.css");
 
+body {
+  font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, Verdana,
+    sans-serif;
+}
+
 :root {
   --ifm-color-primary: #54adcb;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -20,6 +25,18 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
   --ifm-container-width: 1555px;
+  --navbar-color-light: rgb(250, 250, 250);
+  --navbar-color-dark: #1c1e21;
+  --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="grey" alt="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>') !important;
+}
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
+  background-color: var(--navbar-color-light);
+}
+
+[data-theme="dark"]
+  .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
+  background-color: var(--navbar-color-dark);
 }
 
 .docusaurus-highlight-code-line {
@@ -29,23 +46,17 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-.menu__link--active:not(.menu__link--sublist) {
-  background: 0;
+[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: black; /* Color which works with dark mode syntax highlighting theme */
 }
 
-body {
-  font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, Verdana,
-    sans-serif;
+.menu__link--active:not(.menu__link--sublist) {
+  background: none;
 }
 
 .menu__link:hover {
-  background: 0;
+  background: none;
   color: var(--ifm-link-hover-color);
-}
-
-.container {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .padding-vert--lg {
@@ -62,20 +73,18 @@ body {
   box-shadow: rgba(0, 0, 0, 0.06) 0.2rem 0px 0.2rem;
 }
 
-html[data-theme="dark"] .docusaurus-highlight-code-line {
-  background-color: black; /* Color which works with dark mode syntax highlighting theme */
-}
-
-.react-toggle--checked .react-toggle-thumb,
-[data-theme="dark"] .react-toggle .react-toggle-thumb {
+[data-theme="dark"] .react-toggle-thumb {
   border-color: #29d !important;
   background: url(https://static.wasd.tv/images/moon.png) 0 0 / contain
     no-repeat;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
+.react-toggle-track {
+  background-color: #63afec !important;
+}
+
+[data-theme="dark"] .react-toggle-track {
+  background-color: #4d4d4d !important;
 }
 
 .pagination-nav__link {
@@ -100,4 +109,18 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 a:hover {
   text-decoration: none !important;
+}
+
+.navbar--fixed-top {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
+  width: 315px !important;
+  padding-left: 4vw !important;
+}
+
+.react-toggle-track {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
