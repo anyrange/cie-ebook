@@ -107,10 +107,21 @@ body {
   padding-top: 5px !important;
 }
 
-a:hover {
-  text-decoration: none !important;
-}
 
 .react-toggle-track {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.menu__link:hover {
+  text-decoration: underline !important;
+  color: black !important;
+}
+
+.menu__link--active {
+  color: rgb(66, 66, 66) !important;
+  font-weight: 600 !important;
+}
+
+.menuLinkText_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar- {
+    cursor: pointer !important;
 }

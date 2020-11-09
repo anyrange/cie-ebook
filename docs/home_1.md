@@ -1,15 +1,18 @@
 ---
-id: home_1
-title: Home
+id: Introduction
+title: Introduction
 sidebar_label: Introduction
 custom_edit_url: null
 slug: /
 ---
+import book_cover from '../static/img/book_cover.jpg';
 
-Welcome to our CLIL4U Main Course!
+<p>
+Welcome to our Chemistry course!
 
-This course is designed to help CLIL teachers learn about the CLIL approach to teaching.
+This course is designed to help students 👨‍🎓 prepare for Chemistry exams
+</p>
 
-![img](../static/img/book_cover.jpg)
+More information on [about page.](home_2.md) You can also use .pdf [book](https://drive.google.com/file/d/1e6p910ZSzZEOXeJ133RKHhF0i8sYKDL3/view?usp=sharing)
 
-
+<img src={book_cover} width="400"/>

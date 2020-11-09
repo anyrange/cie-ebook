@@ -1,5 +1,5 @@
 ---
-id: home_3
+id: Style Guide
 title: Style Guide
 sidebar_label: Style Guide
 custom_edit_url: null
@@ -8,6 +8,8 @@ custom_edit_url: null
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 ## Markdown Syntax
+
+Don’t consume too much C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
 
 To serve as an example page when styling markdown based Docusaurus sites.
 
@@ -29,13 +31,32 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
 ## Emphasis
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+The emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-Combined emphasis with **asterisks and _underscores_**.
+The combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
+
+---
+
+## Tabs
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+defaultValue="apple"
+values={[
+{label: 'Apple', value: 'apple'},
+{label: 'Orange', value: 'orange'},
+{label: 'Banana', value: 'banana'},
+]}>
+<TabItem value="apple">This is an apple 🍎</TabItem>
+<TabItem value="orange">This is an orange 🍊</TabItem>
+<TabItem value="banana">This is a banana 🍌</TabItem>
+</Tabs>
 
 ---
 
@@ -88,7 +109,7 @@ Reference-style: ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
 
-Images from any folder can be used by providing path to file. Path should be relative to markdown file.
+Images from any folder can be used by providing a path to the file. The path should be relative to the markdown file.
 
 ![img](../static/img/logo.svg)
 
@@ -140,7 +161,7 @@ There must be at least 3 dashes separating each header cell. The outer pipes (|)
 
 ## Blockquotes
 
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+> Blockquotes are very handy in the email to emulate reply text. This line is part of the same quote.
 
 Quote break.
 
@@ -167,6 +188,23 @@ Here's a line for us to start with.
 This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
 
 This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
+
+---
+
+## MDX
+
+You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+
+export const Highlight = ({children, color}) => ( <span style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>{children}</span> );
+
+<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
+
+I can write **Markdown** alongside my _JSX_!
 
 ---
 
