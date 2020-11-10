@@ -1,5 +1,5 @@
 ---
-id: Periodicity-Reading
+id: periodicity-reading
 title: Periodicity Reading
 sidebar_label: Periodicity Reading
 custom_edit_url: null

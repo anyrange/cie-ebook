@@ -1,5 +1,5 @@
 ---
-id: Periodicity-Concept-Map
+id: periodicity-concept-map
 title: Concept Map
 sidebar_label: Concept Map
 custom_edit_url: null

@@ -1,5 +1,5 @@
 ---
-id: Periodicity-Glossary
+id: periodicity-glossary
 title: Glossary
 sidebar_label: Glossary
 custom_edit_url: null

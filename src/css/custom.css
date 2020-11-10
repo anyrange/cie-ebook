@@ -107,7 +107,6 @@ body {
   padding-top: 5px !important;
 }
 
-
 .react-toggle-track {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
@@ -123,5 +122,5 @@ body {
 }
 
 .menuLinkText_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar- {
-    cursor: pointer !important;
+  cursor: pointer !important;
 }

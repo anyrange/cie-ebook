@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    'Home': ['Introduction', 'About'],
-    'Periodicity': ['Periodicity-Language-Structure', 'Periodicity-Concept-Map', 'Periodicity-Reading', 'Periodicity-Glossary'],
+    'Home': ['introduction', 'about'],
+    'Periodicity': ['periodicity-language-structure', 'periodicity-concept-map', 'periodicity-reading', 'periodicity-glossary'],
   },
 };

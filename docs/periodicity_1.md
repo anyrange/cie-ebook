@@ -1,5 +1,5 @@
 ---
-id: Periodicity-Language-Structure
+id: periodicity-language-structure
 title: Comparatives and Superlatives
 sidebar_label: Language Structure
 custom_edit_url: null
