@@ -6326,13 +6326,6 @@
     "minimist" "^1.2.0"
     "strip-json-comments" "~2.0.1"
 
-"react-audio-player@^0.14.0":
-  "integrity" "sha512-B0kP3KVjbp+TXG8TUh1kl91xnYwYx8c+YLbx3oZS9drcHvgTPWl4sl8inmwyLWPH0bMW5eqGFL5qT1fuHk8Ysw=="
-  "resolved" "https://registry.npmjs.org/react-audio-player/-/react-audio-player-0.14.0.tgz"
-  "version" "0.14.0"
-  dependencies:
-    "prop-types" "^15.7.2"
-
 "react-base16-styling@^0.6.0":
   "version" "0.6.0"
   dependencies:
@@ -6369,7 +6362,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^15.3.0 || ^16.0.0", "react-dom@^16.0.0 || ^15.5.4", "react-dom@^16.8.0", "react-dom@^16.8.4", "react-dom@>=16":
+"react-dom@^15.3.0 || ^16.0.0", "react-dom@^16.0.0 || ^15.5.4", "react-dom@^16.8.0", "react-dom@^16.8.4":
   "version" "16.14.0"
   dependencies:
     "loose-envify" "^1.1.0"
@@ -6469,7 +6462,7 @@
   dependencies:
     "classnames" "^2.2.5"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.0.2 || ^16.0.0-beta || ^16.0.0", "react@^15.3.0 || ^16.0.0", "react@^16.0.0 || ^15.5.4", "react@^16.13.1", "react@^16.14.0", "react@^16.3.0", "react@^16.8.0", "react@^16.8.4", "react@>=0.14.0 <17.0.0", "react@>=0.14.9", "react@>=15", "react@>=16", "react@>=16.3.0", "react@>=16.6.0":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.0.2 || ^16.0.0-beta || ^16.0.0", "react@^15.3.0 || ^16.0.0", "react@^16.0.0 || ^15.5.4", "react@^16.13.1", "react@^16.14.0", "react@^16.3.0", "react@^16.8.0", "react@^16.8.4", "react@>=0.14.0 <17.0.0", "react@>=0.14.9", "react@>=15", "react@>=16.3.0", "react@>=16.6.0":
   "version" "16.14.0"
   dependencies:
     "loose-envify" "^1.1.0"
