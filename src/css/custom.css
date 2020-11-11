@@ -116,11 +116,17 @@ body {
   color: black !important;
 }
 
+[data-theme="dark"] .menu__link:hover {
+  text-decoration: underline !important;
+  color: #61b2ce !important;
+}
+
 .menu__link--active {
   color: rgb(66, 66, 66) !important;
   font-weight: 600 !important;
 }
 
-.menuLinkText_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar- {
-  cursor: pointer !important;
+[data-theme="dark"] .menu__link--active {
+  color: #54adcb !important;
+  font-weight: 600 !important;
 }

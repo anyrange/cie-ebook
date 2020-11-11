@@ -1,32 +1,23 @@
 module.exports = {
-  title: "NIS-CWB",
+  title: "⠀",
   tagline: "web version of book",
-  url: "https://nis-webbook.netlify.com",
+  url: "https://chemistry-in-english-ebook.netlify.app",
   baseUrl: "/",
-  onBrokenLinks: "ignore",
+  onBrokenLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "wsehl", // Usually your GitHub org/user name.
-  projectName: "nis-webbook", // Usually your repo name.
-  titleDelimiter: "-",
+  organizationName: "wsehl",
+  projectName: "cie-ebook",
+  titleDelimiter: "⠀",
   themeConfig: {
     colorMode: {
       defaultMode: "light",
       disableSwitch: false,
-
-      // Should we use the prefers-color-scheme media-query,
-      // using user system preferences, instead of the hardcoded defaultMode
       respectPrefersColorScheme: false,
       switchConfig: {
         darkIcon: "⠀",
-
-        // CSS to apply to dark icon,
-        // React inline style object
-        // see https://reactjs.org/docs/dom-elements.html#style
         darkIconStyle: {
           marginLeft: "2px",
         },
-        // Unicode icons such as '\u2600' will work
-        // Unicode with 5 chars require brackets: '\u{1F602}'
         lightIcon: "⠀",
 
         lightIconStyle: {
@@ -49,16 +40,14 @@ module.exports = {
     image: "img/docusaurus.png",
     gtag: {
       trackingID: "G-LD0YSGQ590",
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
+      anonymizeIP: true,
     },
     googleAnalytics: {
       trackingID: "G-LD0YSGQ590",
-      // Optional fields.
-      anonymizeIP: false, // Should IPs be anonymized?
+      anonymizeIP: false,
     },
     navbar: {
-      title: "NIS Chemistry WebBook",
+      title: "Chemistry in English e-book",
       logo: {
         alt: "Website Logo",
         src: "img/logo.svg",
@@ -73,51 +62,6 @@ module.exports = {
         */
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} NIS Chemistry WebBook. Built with Docusaurus.`,
-    },
   },
   presets: [
     [
@@ -126,7 +70,6 @@ module.exports = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl: "https://github.com/wsehl/nis-cwb/tree/master",
         },
         theme: {
@@ -136,22 +79,15 @@ module.exports = {
     ],
   ],
   plugins: [
-    // ... Your other plugins.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
         indexBlog: false,
         indexPages: true,
         docsRouteBasePath: "/",
         docsDir: "docs",
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
         language: ["en", "ru"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
       },
     ],
   ],
