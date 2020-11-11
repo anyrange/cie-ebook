@@ -3,6 +3,8 @@ id: introduction
 title: Introduction
 sidebar_label: Introduction
 custom_edit_url: null
+hide_title: false
+hide_table_of_contents: true
 slug: /
 ---
 import book_cover from '../static/img/book_cover.jpg';

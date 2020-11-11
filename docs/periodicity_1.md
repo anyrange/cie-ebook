@@ -1,7 +1,7 @@
 ---
-id: periodicity-language-structure
-title: Comparatives and Superlatives
-sidebar_label: Language Structure
+id: periodicity-classroom-language
+title: Classroom Language
+sidebar_label: Classroom Language
 custom_edit_url: null
 ---
 import periodicity_block from '../static/img/periodicity_block.png';

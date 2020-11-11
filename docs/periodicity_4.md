@@ -5,29 +5,6 @@ sidebar_label: Glossary
 custom_edit_url: null
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs
-defaultValue="apple"
-values={[
-{label: 'Apple', value: 'apple'},
-{label: 'Orange', value: 'orange'},
-]}>
-<TabItem value="apple">Worksheet</TabItem>
-<TabItem value="orange">Answers</TabItem>
-</Tabs>
-
-
-
-
-
-
-
-
-
-
-
 **amphoteric** - able to behave as both an acid and a base.
 
 **electronegativity** – the ability of an atom to attract the bonding electrons in a covalent bond.
