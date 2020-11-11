@@ -1,7 +1,6 @@
 ---
-id: home-development
-title: Development
-sidebar_label: Development
+id: in-dev
+title: In Dev
 custom_edit_url: null
 hide_table_of_contents: true
 ---

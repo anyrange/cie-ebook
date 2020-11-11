@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Home: ["home-introduction", "home-development", "home-guide"],
+    Home: ["introduction", "in-dev", "MDX"],
     Periodicity: [
       "periodicity-classroom-language",
       "periodicity-language-structure",

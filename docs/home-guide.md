@@ -1,6 +1,6 @@
 ---
-id: home-guide
-title: MDX
+id: MDX
+title: "In Dev: MDX"
 custom_edit_url: null
 ---
 

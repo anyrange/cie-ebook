@@ -130,3 +130,18 @@ body {
   color: #54adcb !important;
   font-weight: 600 !important;
 }
+
+:hover > .hash-link {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menuLinkText_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar- {
+  cursor: pointer !important;
+  font-weight: 600 !important;
+}
+
+.menu__link menuLinkText_2zSB {
+  cursor: pointer !important;
+  font-weight: 600 !important;
+}
