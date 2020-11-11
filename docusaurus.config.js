@@ -36,6 +36,7 @@ module.exports = {
       },
     },
     sidebarCollapsible: false,
+    hideableSidebar: true,
     /*
     announcementBar: {
       id: 'support_us', // Any value that will identify this message.
@@ -127,7 +128,7 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/wsehl/nis-webbook",
+          editUrl: "https://github.com/wsehl/nis-cwb/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
