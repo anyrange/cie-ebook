@@ -24,11 +24,16 @@ values={[
 
 ### Video Player
 <VideoPlayer
-    url='https://youtu.be/J0w0t4Qn6LY?t=2053'
+    url='https://youtu.be/IvUU8joBb1Q?t=30'
+/>
+
+### Video Player SRC
+<VideoPlayer
+    url='/video/Rabbit.mp4'
 />
 
 ### Audio Player
 <ReactAudioPlayer
-  src="../static/audio/22. Across the Violet Sky.mp3"
+  src='/audio/On a Cloud.mp3'
   controls
 />

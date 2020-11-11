@@ -1,8 +1,8 @@
 .player-wrapper {
   position: relative;
   margin: left auto;
-  padding-top: min(calc(50vh - 60px), calc(720 / 1152 * 100%));
-  width: min(100%, calc((50vh - 60px) / 720 * 1152));
+  padding-top: min(calc(50vh - 65px), calc(720 / 1152 * 100%));
+  width: min(100%, calc((50vh - 30px) / 720 * 1152));
 }
 
 .react-player {
