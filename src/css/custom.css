@@ -112,8 +112,22 @@ body {
 }
 
 .menu__link:hover {
-  text-decoration: underline !important;
+  text-decoration: underline;
   color: black !important;
+}
+
+a.menu__link.menuLinkText_2zSB:hover {
+  background: none;
+  text-decoration: none;
+  cursor: auto !important;
+  color: var(--ifm-menu-color) !important;
+}
+
+a.menu__link.menuLinkText_2zSB {
+  background: none;
+  text-decoration: none !important;
+  font-weight: 700;
+  cursor: auto !important;
 }
 
 [data-theme="dark"] .menu__link:hover {
