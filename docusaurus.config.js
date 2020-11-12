@@ -46,6 +46,9 @@ module.exports = {
       trackingID: "G-LD0YSGQ590",
       anonymizeIP: false,
     },
+    googleAdsense: {
+      dataAdClient: "ca-pub-1858712158191719",
+    },
     navbar: {
       title: "Chemistry in English e-book",
       logo: {
@@ -79,6 +82,7 @@ module.exports = {
     ],
   ],
   plugins: [
+    "docusaurus-plugin-google-adsense",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
