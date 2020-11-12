@@ -1,3 +1,6 @@
+const math = require("remark-math");
+const katex = require("rehype-katex");
+
 module.exports = {
   title: "⠀",
   tagline: "web version of book",
@@ -74,6 +77,8 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/wsehl/nis-cwb/tree/master",
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -94,5 +99,14 @@ module.exports = {
         language: ["en", "ru"],
       },
     ],
+  ],
+  stylesheets: [
+    {
+      href: "katex/katex.min.css",
+      type: "text/css",
+      integrity:
+        "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X",
+      crossorigin: "anonymous",
+    },
   ],
 };

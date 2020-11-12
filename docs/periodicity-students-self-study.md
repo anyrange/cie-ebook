@@ -1,6 +1,0 @@
----
-id: periodicity-students-self-study
-title: Student's self-study
-custom_edit_url: null
-hide_table_of_contents: true
----

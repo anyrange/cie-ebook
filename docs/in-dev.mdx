@@ -1,0 +1,296 @@
+---
+id: in-dev
+title: In Dev
+custom_edit_url: null
+hide_table_of_contents: true
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import ReactPlayer from "react-player";
+
+### Summary
+
+<details>
+  <summary>Matrices</summary>
+  <p>1</p>
+</details>
+<details>
+  <summary>Jacobian</summary>
+  <p>2</p>
+</details>
+<details>
+  <summary>pyTorch Autograd</summary>
+  <p>3</p>
+</details>
+
+### Math
+
+- $\frac{\delta W(x;p)}{\delta p}$ = Jacobian Matrix (Matrix of Partial Derivatives)
+  - $x = \begin{bmatrix}x \\ y\end{bmatrix}$, $p=\{p_1,...,p_N\}$
+    - x is shorthand for the coordinates
+    - p is a vector of parameters
+  - $W(x;p) = \begin{bmatrix}W_x(x,y;p) \\ W_y(x,y;p)\end{bmatrix}$
+    - $W(x;p)\equiv W(x,y;p)$ and it is a linear transformation of the coordinates.
+    - $W_x(x,y;p)$ refers to the transformation to the x-axis position by $W(x,y;p)$.
+  - $\frac{\delta W(x;p)}{\delta p} = \begin{bmatrix}\frac{\delta W_x}{\delta p_1} & \frac{\delta W_x}{\delta p_2} & ... & \frac{\delta W_x}{\delta p_N} \\ \frac{\delta W_y}{\delta p_1} & \frac{\delta W_y}{\delta p_2} & ... & \frac{\delta W_y}{\delta p_N}\end{bmatrix}$
+    - Derivative of this transformation w.r.t. p is equivalent to obtaining a vector of the equations differentiated by each parameter $p_i$
+
+### Tabs
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Worksheet", value: "worksheet" },
+    { label: "Answers", value: "answers" },
+  ]}
+>
+  <TabItem value="worksheet">Worksheet tab</TabItem>
+  <TabItem value="answers">Answers tab</TabItem>
+</Tabs>
+
+### Video Player
+
+<ReactPlayer
+  url="https://youtu.be/IvUU8joBb1Q?t=30"
+  width="640px"
+  height="360px"
+  controls={true}
+/>
+
+### Local Video Player
+
+<ReactPlayer
+  url="/video/Rabbit.mp4"
+  width="640px"
+  height="360px"
+  controls={true}
+/>
+
+### Local Audio Player 1/2
+
+<ReactPlayer
+  url="/audio/On a Cloud.mp3"
+  width="320px"
+  height="40px"
+  controls={true}
+/>
+
+### Local Audio Player Full-width
+
+<ReactPlayer
+  url="/audio/On a Cloud.mp3"
+  width="640px"
+  height="40px"
+  controls={true}
+/>
+
+You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+
+## Markdown Syntax
+
+Don’t consume too much C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
+
+To serve as an example page when styling markdown based Docusaurus sites.
+
+## Headers
+
+# H1 - Create the best documentation
+
+## H2 - Create the best documentation
+
+### H3 - Create the best documentation
+
+#### H4 - Create the best documentation
+
+##### H5 - Create the best documentation
+
+###### H6 - Create the best documentation
+
+---
+
+## Emphasis
+
+The emphasis, aka italics, with _asterisks_ or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or **underscores**.
+
+The combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+
+---
+
+## Lists
+
+1. First ordered list item
+1. Another item
+   - Unordered sub-list.
+1. Actual numbers don't matter, just that it's a number
+   1. Ordered sub-list
+1. And another item.
+
+- Unordered list can use asterisks
+
+* Or minuses
+
+- Or pluses
+
+---
+
+## Links
+
+[I'm an inline-style link](https://www.google.com/)
+
+[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
+
+[I'm a reference-style link][arbitrary case-insensitive reference text]
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org/
+[1]: http://slashdot.org/
+[link text itself]: http://www.reddit.com/
+
+---
+
+## Code
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print(s)
+```
+
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+```
+
+```js {2}
+function highlightMe() {
+  console.log("This line can be highlighted!");
+}
+```
+
+---
+
+## Tables
+
+Colons can be used to align columns.
+
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+
+There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+---
+
+## Blockquotes
+
+> Blockquotes are very handy in the email to emulate reply text. This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+
+---
+
+## Inline HTML
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+
+---
+
+## Line Breaks
+
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
+
+This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
+
+---
+
+## MDX
+
+You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+
+export const Highlight = ({ children, color }) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: "2px",
+      color: "#fff",
+      padding: "0.2rem",
+    }}
+  >
+    {children}
+  </span>
+);
+
+<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">
+  Facebook blue
+</Highlight> are my favorite colors.
+
+I can write **Markdown** alongside my _JSX_!
+
+---
+
+## Admonitions
+
+:::note
+
+This is a note
+
+:::
+
+:::tip
+
+This is a tip
+
+:::
+
+:::important
+
+This is important
+
+:::
+
+:::caution
+
+This is a caution
+
+:::
+
+:::warning
+
+This is a warning
+
+:::
