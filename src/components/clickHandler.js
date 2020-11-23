@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function Click() {
-    return console.log('aue');
-  }
+class Click extends Component {
 
-export default Click
+    }
+    
+export default Click;
