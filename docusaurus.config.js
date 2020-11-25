@@ -59,8 +59,6 @@ module.exports = {
         src: "img/logo.svg",
       },
       items: [
-        { to: "glossary", label: "Chemical Glossary App", position: "left" },
-
         /*
         {
           href: 'https://github.com/facebook/docusaurus',
