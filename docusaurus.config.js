@@ -59,13 +59,11 @@ module.exports = {
         src: "img/logo.svg",
       },
       items: [
-        /*
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: "glossary",
+          label: "Chemical Glossary App",
+          position: "left",
         },
-        */
       ],
     },
   },
