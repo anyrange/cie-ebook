@@ -4,13 +4,14 @@ module.exports = {
     Periodicity: [
       "periodicity/classroom-language",
       "periodicity/language-structure",
+      "periodicity/glossary",
       "periodicity/vocabulary-practice-tips",
       "periodicity/reading",
       "periodicity/practice-exercises",
       "periodicity/bloom-taxonomy",
       "periodicity/video-lesson",
       "periodicity/students-self-study",
-      "periodicity/teaching-method"
+      "periodicity/teaching-method",
     ],
   },
 };

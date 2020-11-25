@@ -5,6 +5,11 @@ custom_edit_url: null
 hide_table_of_contents: true
 ---
 
+import Quiz from "react-quiz-component";
+import { quiz } from "./quiz";
+
+<Quiz quiz={quiz} />
+
 #### 1. Complete these sentences about the periodicity. Use the words in the box:
 
 <div style={{ padding: "20px", backgroundColor: "#fabcaa" }}>
@@ -12,26 +17,25 @@ hide_table_of_contents: true
   electron configurations, atomic mass, molar volume, atomic volume, electronic
   structure
 </div>
-
 <br />
-
-The periodic table arranges the elements according to their
-..................., in a such way that elements in the same column
-have the same ................... configurations. Periodic variations in
-size and................... are important factors in dictating the types
-of chemical reactions the elements undergo and the kinds of
-chemical compounds they form. The modern periodic table was
-based on empirical correlations of properties such as...................;
-early models using limited data noted the existence of triads and
-octaves of elements with ..................... The periodic table achieved
-its current form through the work of Dimitri Mendeleev and Julius
-Lothar Meyer, who both focused on the relationship between
-...................and chemical properties. Meyer arranged the elements
-by their..................., which today is equivalent to the...................,
-defined as molar mass divided by molar density. The correlation
-with the................... of atoms was made when H. G. J. Moseley
-showed that the periodic arrangement of the elements was
-determined by atomic number, not atomic mass.
+<p>
+  The periodic table arranges the elements according to their
+  ..................., in a such way that elements in the same column have the
+  same ................... configurations. Periodic variations in size
+  and................... are important factors in dictating the types of
+  chemical reactions the elements undergo and the kinds of chemical compounds
+  they form. The modern periodic table was based on empirical correlations of
+  properties such as...................; early models using limited data noted
+  the existence of triads and octaves of elements with ..................... The
+  periodic table achieved its current form through the work of Dimitri Mendeleev
+  and Julius Lothar Meyer, who both focused on the relationship between
+  ...................and chemical properties. Meyer arranged the elements by
+  their..................., which today is equivalent to the...................,
+  defined as molar mass divided by molar density. The correlation with
+  the................... of atoms was made when H. G. J. Moseley showed that the
+  periodic arrangement of the elements was determined by atomic number, not
+  atomic mass.
+</p>
 
 #### 2. Complete the tables about properties of period 3 elements using words: decreases, decreases, zero and others
 
@@ -117,59 +121,76 @@ determined by atomic number, not atomic mass.
   </tr>
   <tr>
     <td>1</td>
-    <td>Periods in the Periodic Table are rows of elements whose outermost electrons are in the same principal quantum shell.</td>
+    <td>
+      Periods in the Periodic Table are rows of elements whose outermost
+      electrons are in the same principal quantum shell.
+    </td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>2</td>
-    <td>The atoms of neighbouring members differ by one neutron and one electron </td>
+    <td>
+      The atoms of neighbouring members differ by one neutron and one electron{" "}
+    </td>
     <td></td>
     <td></td>
-  </tr>  
+  </tr>
   <tr>
     <td>3</td>
     <td>First ionisation energies tend to decrease across a period.</td>
     <td></td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>4</td>
-    <td>Atomic radii decrease across a period due to decreasing nuclear charge</td>
+    <td>
+      Atomic radii decrease across a period due to decreasing nuclear charge
+    </td>
     <td></td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>5</td>
     <td>Positive ions are much smaller than their atoms.</td>
     <td></td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>6</td>
-    <td>Across a period, the structures of the elements change from individual atoms, giant to molecular to simple molecular.</td>
+    <td>
+      Across a period, the structures of the elements change from individual
+      atoms, giant to molecular to simple molecular.
+    </td>
     <td></td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>7</td>
-    <td>Across a period, the chlorides of Period 3 elements change from ionic compounds that dissolve in water to covalent compounds that are hydrolysed by water, releasing fumes of hydrogen chloride and leaving an acidic solution</td>
+    <td>
+      Across a period, the chlorides of Period 3 elements change from ionic
+      compounds that dissolve in water to covalent compounds that are hydrolysed
+      by water, releasing fumes of hydrogen chloride and leaving an acidic
+      solution
+    </td>
     <td></td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>8</td>
     <td>A column of elements thus arranged is called a row.</td>
     <td></td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>9</td>
-    <td>There is a gradual decrease in metallic character in crossing a period</td>
+    <td>
+      There is a gradual decrease in metallic character in crossing a period
+    </td>
     <td></td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>10</td>
     <td>Electronegativity increases across the period</td>
     <td></td>
