@@ -6,7 +6,7 @@ function App() {
   return (
     <Layout title="Hello">
       <Iframe
-        src="src/pages/index.html"
+        src="https://cie-ebook-glossary-app.netlify.app"
         onLoad={({ event, iframe }) => {
           if (!(iframe && iframe.contentDocument)) {
             return;
