@@ -1,29 +1,26 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import Iframe from "@trendmicro/react-iframe";
+import Iframe from "react-iframe";
+import './style.css';
 
 function App() {
   return (
     <Layout title="Hello">
-      <Iframe
-        src="src/pages/index.html"
-        onLoad={({ event, iframe }) => {
-          if (!(iframe && iframe.contentDocument)) {
-            return;
-          }
-
-          const target = iframe.contentDocument.body;
-          const nextHeight = target.offsetHeight;
-          iframe.style.height = `${nextHeight}px`;
-
-          const observer = new ResizeObserver((entries) => {
-            const target = iframe.contentDocument.body;
-            const nextHeight = target.offsetHeight;
-            iframe.style.height = `${nextHeight}px`;
-          });
-          observer.observe(target);
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
         }}
-      />
+      >
+        <Iframe
+          url="src/pages/index.html"
+          width="100%"
+          height="100%"
+          frameBorder="0"
+        />
+      </div>
     </Layout>
   );
 }

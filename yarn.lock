@@ -2147,13 +2147,6 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@trendmicro/react-iframe@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@trendmicro/react-iframe/-/react-iframe-1.0.1.tgz#8707e8fc4d6069946eef1137fa61fd9a7810bcab"
-  integrity sha512-t+Dzx+RcXt/SAD5BjHH3/XP4RMMUAV2iOCTNjAv763RRwYtR5/FA5IWFrENPlco129anPObciDCLQ4EfG06JAQ==
-  dependencies:
-    prop-types "^15.5.8"
-
 "@types/anymatch@*":
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@types/anymatch/-/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
@@ -4111,6 +4104,11 @@ css-what@^3.2.1:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-3.4.2.tgz#ea7026fcb01777edbde52124e21f327e7ae950e4"
   integrity sha512-ACUm3L0/jiZTqfzRM3Hi9Q8eZqd6IK37mMWPLz9PJxkLWllYeRf+EHUSHYEtFop2Eqytaq1FizFVh7XfBnXCDQ==
+
+cssbeautify@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/cssbeautify/-/cssbeautify-0.3.1.tgz#12dd1f734035c2e6faca67dcbdcef74e42811397"
+  integrity sha1-Et0fc0A1wub6ymfcvc73TkKBE5c=
 
 cssdb@^4.4.0:
   version "4.4.0"
@@ -6109,6 +6107,19 @@ iferr@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
+
+iframe-resizer-react@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/iframe-resizer-react/-/iframe-resizer-react-1.0.4.tgz#260655f785175d744cb76db4ccf805b968d87088"
+  integrity sha512-j2AFgVe6ZhvUVu4VbEvUB4lUadmCwdg4tIYgL9TRdWubL1477Xv0wl8xVC9ETky3+81ngnbOYFLaUIkBOESJFQ==
+  dependencies:
+    iframe-resizer "^4.2.10"
+    warning "^4.0.3"
+
+iframe-resizer@^4.2.10:
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/iframe-resizer/-/iframe-resizer-4.2.11.tgz#68a6709796447e90109d2cf54373b51adbd1186a"
+  integrity sha512-fj5vX5kkpRbMb5Qje6veIDzqoJpnCEqUDdSOwASOeQHYmb8hLYX6Ev2yXf3jjMs2MclwcYY3chyZ3diGKcr8DA==
 
 ignore@^3.3.5:
   version "3.3.10"
@@ -9132,7 +9143,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.0, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.0, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9424,6 +9435,11 @@ react-loadable@^5.5.0:
   dependencies:
     prop-types "^15.5.0"
 
+react-parm@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-parm/-/react-parm-1.1.1.tgz#a88af214ff942aac517ec21a4aea8a57104512d3"
+  integrity sha512-fei1OHIwwYWTdAeiJSCz8VHCIIeZTI65fmtFRtoejwYMOQGgJcim0K1RTz69kTnvwviQI+a9vU3t0MZR52hSLQ==
+
 react-player@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npmjs.org/react-player/-/react-player-2.6.2.tgz"
@@ -9483,6 +9499,15 @@ react-side-effect@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
   integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
+
+react-style-tag@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-style-tag/-/react-style-tag-2.0.2.tgz#9f7ce50ba8134416a9a6dbcfa405934bd8a03dae"
+  integrity sha512-Gt9T1Qa7OnkjESwNp0fyycwU/Cisok5tE4zkMAMA71enERgolmVUyQaWPiCb7TMy+sbAy9Nq6rG9KP0oXQmqxw==
+  dependencies:
+    cssbeautify "^0.3.1"
+    react-parm "^1.0.0"
+    stylis "^3.5.0"
 
 react-textarea-autosize@^6.1.0:
   version "6.1.0"
@@ -10699,6 +10724,11 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
+stylis@^3.5.0:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.5.4.tgz#f665f25f5e299cf3d64654ab949a57c768b73fbe"
+  integrity sha512-8/3pSmthWM7lsPBKv7NXkzn2Uc9W7NotcwGNpJaa3k7WMM1XDCA4MgT5k/8BIexd5ydZdboXtU90XH9Ec4Bv/Q==
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -11486,6 +11516,13 @@ wait-on@^5.2.0:
     lodash "^4.17.19"
     minimist "^1.2.5"
     rxjs "^6.5.5"
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
