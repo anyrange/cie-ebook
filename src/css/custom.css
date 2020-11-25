@@ -162,3 +162,7 @@ a.menu__link.menuLinkText_2zSB {
   cursor: pointer !important;
   font-weight: 600 !important;
 }
+
+.react-quiz-container {
+  margin: 0 !important;
+}

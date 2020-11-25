@@ -7,22 +7,8 @@ function App() {
     <Layout title="Hello">
       <Iframe
         src="https://cie-ebook-glossary-app.netlify.app"
-        onLoad={({ event, iframe }) => {
-          if (!(iframe && iframe.contentDocument)) {
-            return;
-          }
-
-          const target = iframe.contentDocument.body;
-          const nextHeight = target.offsetHeight;
-          iframe.style.height = `${nextHeight}px`;
-
-          const observer = new ResizeObserver((entries) => {
-            const target = iframe.contentDocument.body;
-            const nextHeight = target.offsetHeight;
-            iframe.style.height = `${nextHeight}px`;
-          });
-          observer.observe(target);
-        }}
+        width="100%"
+        height={850}
       />
     </Layout>
   );
