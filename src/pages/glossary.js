@@ -4,11 +4,14 @@ import Iframe from "@trendmicro/react-iframe";
 
 function App() {
   return (
-    <Layout className="layout-body" title="Chemical Glossary App">
+    <Layout title="Chemical Glossary App">
       <Iframe
         src="https://cie-ebook-glossary-app.netlify.app"
-        width="100%"
-        height={850}
+        style={{
+          height: "calc(100vh - 100%)",
+          width: "100%",
+          minHeight: "calc(100vh - 70px)",
+        }}
       />
     </Layout>
   );
