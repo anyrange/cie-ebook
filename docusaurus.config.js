@@ -53,7 +53,7 @@ module.exports = {
       dataAdClient: "ca-pub-1858712158191719",
     },
     navbar: {
-      title: "Chemistry in English e-book",
+      title: "Chemistry in English",
       logo: {
         alt: "Website Logo",
         src: "img/logo.svg",
