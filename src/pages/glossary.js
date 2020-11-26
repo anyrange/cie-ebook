@@ -4,7 +4,7 @@ import Iframe from "@trendmicro/react-iframe";
 
 function App() {
   return (
-    <Layout title="Hello">
+    <Layout title="Chemical Glossary App">
       <Iframe
         src="https://cie-ebook-glossary-app.netlify.app"
         width="100%"
