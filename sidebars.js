@@ -5,6 +5,7 @@ module.exports = {
       "periodicity/classroom-language",
       "periodicity/language-structure",
       "periodicity/vocabulary-practice-tips",
+      "periodicity/glossary",
       "periodicity/reading",
       "periodicity/practice-exercises",
       "periodicity/bloom-taxonomy",

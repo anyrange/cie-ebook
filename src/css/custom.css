@@ -166,3 +166,46 @@ a.menu__link.menuLinkText_2zSB {
 .gap-text {
   margin: 0 !important;
 }
+
+.rhap_progress-section {
+  display: none !important;
+}
+
+.rhap_additional-controls {
+  display: none !important;
+}
+
+.rhap_volume-controls {
+  display: none !important;
+}
+
+.rhap_rewind-button {
+  display: none !important;
+}
+
+.rhap_forward-button {
+  display: none !important;
+}
+
+.rhap_container {
+  max-width: 30px !important;
+  display: inline-block;
+}
+
+.rhap_stacked {
+  max-width: 30px !important;
+}
+
+.rhap_play-pause-button svg{
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.rhap_play-pause-button {
+  background-color: transparent !important;
+  border: none;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  outline: none;
+}
