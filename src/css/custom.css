@@ -196,9 +196,13 @@ a.menu__link.menuLinkText_2zSB {
   max-width: 30px !important;
 }
 
-.rhap_play-pause-button svg{
+.rhap_play-pause-button svg {
   width: 20px !important;
   height: 20px !important;
+}
+
+[data-theme="dark"] .rhap_play-pause-button svg {
+  color: white !important;
 }
 
 .rhap_play-pause-button {
