@@ -1,3 +1,11 @@
+---
+id: glossary
+title: Glossary
+custom_edit_url: null
+hide_table_of_contents: true
+---
+
+import AudioButton from "@site/src/components/AudioButton";
 
 <p>
   <b>amphoteric</b>

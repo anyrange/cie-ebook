@@ -197,12 +197,13 @@ a.menu__link.menuLinkText_2zSB {
 }
 
 .rhap_play-pause-button svg {
-  width: 20px !important;
-  height: 20px !important;
+  width: 21px !important;
+  height: 21px !important;
 }
 
 [data-theme="dark"] .rhap_play-pause-button svg {
   color: white !important;
+  transition: 0.15s;
 }
 
 .rhap_play-pause-button {
