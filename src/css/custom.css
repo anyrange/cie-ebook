@@ -167,50 +167,8 @@ a.menu__link.menuLinkText_2zSB {
   margin: 0 !important;
 }
 
-.rhap_progress-section {
-  display: none !important;
-}
-
-.rhap_additional-controls {
-  display: none !important;
-}
-
-.rhap_volume-controls {
-  display: none !important;
-}
-
-.rhap_rewind-button {
-  display: none !important;
-}
-
-.rhap_forward-button {
-  display: none !important;
-}
-
-.rhap_container {
-  max-width: 30px !important;
-  display: inline-block;
-}
-
-.rhap_stacked {
-  max-width: 30px !important;
-}
-
-.rhap_play-pause-button svg {
-  width: 21px !important;
-  height: 21px !important;
-}
-
-[data-theme="dark"] .rhap_play-pause-button svg {
-  color: white !important;
+[data-theme="dark"] .btn {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
   transition: 0.15s;
-}
-
-.rhap_play-pause-button {
-  background-color: transparent !important;
-  border: none;
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-  outline: none;
 }

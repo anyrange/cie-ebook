@@ -1,10 +1,11 @@
 .btn {
   background-repeat: no-repeat;
-  display: inline-block;
+  cursor: pointer;
+  opacity: 0.85;
   padding: 10px;
   margin-left: 10px;
   vertical-align: middle;
-  opacity: 0.85;
+  display: inline-block;
 }
 
 .pause-btn {
