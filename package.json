@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
     "docusaurus-plugin-google-adsense": "^0.1.0"
   }
 }

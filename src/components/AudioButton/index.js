@@ -1,29 +1,72 @@
-import React, { useState, useRef } from "react";
-import "./AudioButton.css";
+import React, { Component } from "react";
+import "./styles.css";
 
-const AudioButton = ({ url }) => {
-  const [audioStatus, changeAudioStatus] = useState(false);
-  const myRef = useRef();
+class AudioButton extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      playing: false,
+    };
+  }
 
-  const startAudio = () => {
-    myRef.current.play();
-    changeAudioStatus(true);
+  onPlay = (event) => {
+    this.setState({ playing: true });
+  };
+  onPause = (event) => {
+    this.setState({ playing: false });
+  };
+  onEnded = (event) => {
+    this.setState({ playing: false });
   };
 
-  const pauseAudio = () => {
-    myRef.current.pause();
-    changeAudioStatus(false);
+  playAudio = () => {
+    this.audioEl.play();
+
+    const audio = this.audioEl;
+
+    audio.addEventListener("play", this.onPlay);
+    audio.addEventListener("pause", this.onPause);
+    audio.addEventListener("ended", this.onEnded);
   };
 
-  return (
-    <>
-      <audio ref={myRef} src={url} />
-      <div
-        onClick={audioStatus ? pauseAudio : startAudio}
-        className={audioStatus ? "btn play-btn" : "btn pause-btn"}
-      ></div>
-    </>
-  );
-};
+  pauseAudio = () => {
+    this.audioEl.pause();
+  };
+
+  startAudio = () => {
+    this.playAudio();
+  };
+
+  renderAudio = () => {
+    const { url } = this.props;
+    const { playing } = this.state;
+
+    const notSupportedMsg =
+      "Your browser does not support the <code>audio</code> element.";
+    return (
+      <>
+        {!playing && (
+          <div className="btn pause-btn" onClick={this.startAudio}></div>
+        )}
+        {playing && (
+          <div className="btn play-btn" onClick={this.pauseAudio}></div>
+        )}
+
+        <audio
+          src={url}
+          ref={(ref) => {
+            this.audioEl = ref;
+          }}
+        >
+          {notSupportedMsg}
+        </audio>
+      </>
+    );
+  };
+
+  render() {
+    return this.renderAudio();
+  }
+}
 
 export default AudioButton;
