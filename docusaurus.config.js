@@ -92,6 +92,7 @@ module.exports = {
         hashed: true,
         indexBlog: false,
         indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
         docsRouteBasePath: "/",
         docsDir: "docs",
         language: ["en", "ru"],
