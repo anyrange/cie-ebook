@@ -2,16 +2,20 @@ module.exports = {
   someSidebar: {
     Home: ["introduction", "in-dev"],
     'Atomic Structure': [
-      "atomic structure/classroom-language",
-      "atomic structure/language-structure",
-      "atomic structure/vocabulary-practice-tips",
-      "atomic structure/glossary",
-      "atomic structure/reading",
-      "atomic structure/practice-exercises",
-      "atomic structure/bloom-taxonomy",
-      "atomic structure/video-lesson",
-      "atomic structure/students-self-study",
-      "atomic structure/teaching-method"
+      "atomic-structure/classroom-language",
+      "atomic-structure/language-structure",
+      "atomic-structure/vocabulary-practice-tips",
+      "atomic-structure/glossary",
+      "atomic-structure/reading",
+      "atomic-structure/practice-exercises",
+      "atomic-structure/reading-electron",
+      "atomic-structure/practice-exercises-electron",
+      "atomic-structure/reading-spectrometry",
+      "atomic-structure/practice-exercises-spectrometry",
+      "atomic-structure/bloom-taxonomy",
+      "atomic-structure/video-lesson",
+      "atomic-structure/students-self-study",
+      "atomic-structure/teaching-method"
     ],
     Periodicity: [
       "periodicity/classroom-language",
