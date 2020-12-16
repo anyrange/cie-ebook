@@ -21,12 +21,9 @@ class AudioButton extends Component {
 
   playAudio = () => {
     this.audioEl.play();
-
     const audio = this.audioEl;
-
     audio.addEventListener("play", this.onPlay);
     audio.addEventListener("pause", this.onPause);
-    audio.addEventListener("ended", this.onEnded);
   };
 
   pauseAudio = () => {
@@ -46,10 +43,10 @@ class AudioButton extends Component {
     return (
       <>
         {!playing && (
-          <div className="btn pause-btn" onClick={this.startAudio}></div>
+          <i className="btn pause-btn" onClick={this.startAudio}></i>
         )}
         {playing && (
-          <div className="btn play-btn" onClick={this.pauseAudio}></div>
+          <i className="btn play-btn" onClick={this.pauseAudio}></i>
         )}
 
         <audio
