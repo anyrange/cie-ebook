@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./styles.css";
-
 class AudioButton extends Component {
   constructor(props) {
     super(props);
@@ -45,9 +44,7 @@ class AudioButton extends Component {
         {!playing && (
           <i className="btn pause-btn" onClick={this.startAudio}></i>
         )}
-        {playing && (
-          <i className="btn play-btn" onClick={this.pauseAudio}></i>
-        )}
+        {playing && <i className="btn play-btn" onClick={this.pauseAudio}></i>}
 
         <audio
           src={url}

@@ -79,13 +79,14 @@ module.exports = {
           rehypePlugins: [katex],
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/custom.scss"),
         },
       },
     ],
   ],
   plugins: [
     "docusaurus-plugin-google-adsense",
+    "docusaurus-plugin-sass",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
