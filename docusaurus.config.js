@@ -32,11 +32,11 @@ module.exports = {
     hideableSidebar: true,
     /*
     announcementBar: {
-      id: 'support_us', // Any value that will identify this message.
+      id: 'announcement',
       content:
-        'announcement',
-      backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      textColor: '#091E42', // Defaults to `#000`.
+        '#BlackLivesMatter',
+      backgroundColor: '#000', // Defaults to `#fff`.
+      textColor: '#fff', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
     },
     */
@@ -48,9 +48,6 @@ module.exports = {
     googleAnalytics: {
       trackingID: "G-LD0YSGQ590",
       anonymizeIP: false,
-    },
-    googleAdsense: {
-      dataAdClient: "ca-pub-1858712158191719",
     },
     navbar: {
       title: "Chemistry in English",
@@ -85,7 +82,6 @@ module.exports = {
     ],
   ],
   plugins: [
-    "docusaurus-plugin-google-adsense",
     "docusaurus-plugin-sass",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
