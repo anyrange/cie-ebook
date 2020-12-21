@@ -29,5 +29,17 @@ module.exports = {
       "periodicity/students-self-study",
       "periodicity/teaching-method"
     ],
+    Bonding: [
+      "bonding/classroom-language",
+      "bonding/language-structure",
+      "bonding/vocabulary-practice-tips",
+      "bonding/glossary",
+      "bonding/reading",
+      "bonding/practice-exercises",
+      "bonding/bloom-taxonomy",
+      "bonding/video-lesson",
+      "bonding/students-self-study",
+      "bonding/teaching-method"
+    ]
   },
 };
