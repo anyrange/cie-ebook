@@ -87,6 +87,8 @@ menu__link menuLinkText_yu3-:hover {
 .collapsedDocSidebar_2fQg,
 .collapsedDocSidebar_2fQg:hover,
 .collapsedDocSidebar_2fQg:focus,
+.docSidebarContainerHidden_27Ua,
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-,
 button button--secondary button--outline collapseSidebarButton_284Q {
   cursor: pointer !important;
 }
