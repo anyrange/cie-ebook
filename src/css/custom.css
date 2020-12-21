@@ -25,7 +25,9 @@ body {
   margin-left: 1.5% !important;
 }
 .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-,
-.docSidebarContainer_3_JD {
+.docSidebarContainer_3_JD,
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-,
+.docSidebarContainer_3Ak5 {
   background-color: var(--ifm-color-emphasis-100);
 }
 .menu__link--active {
@@ -50,6 +52,7 @@ body {
 .navbar__search-input {
   border-radius: 10px;
   width: 17.5rem;
+  outline: none;
 }
 [data-theme="dark"] .menu__link:hover {
   text-decoration: underline !important;
@@ -81,6 +84,9 @@ menu__link menuLinkText_yu3-:hover {
 }
 .collapsedDocSidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-:hover,
 .collapsedDocSidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-:focus,
+.collapsedDocSidebar_2fQg,
+.collapsedDocSidebar_2fQg:hover,
+.collapsedDocSidebar_2fQg:focus,
 button button--secondary button--outline collapseSidebarButton_284Q {
   cursor: pointer !important;
 }
