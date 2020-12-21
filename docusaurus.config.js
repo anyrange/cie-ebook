@@ -6,12 +6,32 @@ module.exports = {
   tagline: "web version of book",
   url: "https://chemistry-in-english-ebook.netlify.app",
   baseUrl: "/",
+  onBrokenMarkdownLinks: "warn",
   onBrokenLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "wsehl",
-  projectName: "cie-ebook",
   titleDelimiter: "⠀",
+  organizationName: "wsehl & thaseyour",
+  projectName: "cie-ebook",
   themeConfig: {
+    navbar: {
+      title: "Chemistry in English",
+      logo: {
+        alt: "Website Logo",
+        src: "img/logo.svg",
+      },
+      items: [
+        {
+          to: "glossary",
+          label: "Chemical Glossary App",
+          position: "left",
+        },
+      ],
+    },
+    footer: {
+      copyright: `Copyright © ${new Date().getFullYear()} cie-ebook, Built with Docusaurus.`,
+    },
+    sidebarCollapsible: false,
+    hideableSidebar: true,
     colorMode: {
       defaultMode: "light",
       disableSwitch: false,
@@ -28,61 +48,21 @@ module.exports = {
         },
       },
     },
-    sidebarCollapsible: false,
-    hideableSidebar: true,
     /*
     announcementBar: {
-      id: 'announcement',
-      content:
-        '#BlackLivesMatter',
-      backgroundColor: '#000', // Defaults to `#fff`.
-      textColor: '#fff', // Defaults to `#000`.
-      isCloseable: true, // Defaults to `true`.
+      id: "announcement",
+      content: "#BlackLivesMatter",
+      backgroundColor: "#000",
+      textColor: "#fff",
+      isCloseable: true,
     },
     */
-    image: "img/docusaurus.png",
-    gtag: {
-      trackingID: "G-LD0YSGQ590",
+    googleAnalytics: {
+      trackingID: "UA-141789564-1",
       anonymizeIP: true,
     },
-    googleAnalytics: {
-      trackingID: "G-LD0YSGQ590",
-      anonymizeIP: false,
-    },
-    navbar: {
-      title: "Chemistry in English",
-      logo: {
-        alt: "Website Logo",
-        src: "img/logo.svg",
-      },
-      items: [
-        {
-          to: "glossary",
-          label: "Chemical Glossary App",
-          position: "left",
-        },
-      ],
-    },
   },
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          routeBasePath: "/",
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/wsehl/nis-cwb/tree/master",
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.scss"),
-        },
-      },
-    ],
-  ],
   plugins: [
-    "docusaurus-plugin-sass",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
@@ -93,6 +73,23 @@ module.exports = {
         docsRouteBasePath: "/",
         docsDir: "docs",
         language: ["en", "ru"],
+      },
+    ],
+  ],
+  presets: [
+    [
+      "@docusaurus/preset-classic",
+      {
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/wsehl/nis-cwb/tree/master",
+          routeBasePath: "/",
+          remarkPlugins: [require("remark-math")],
+          rehypePlugins: [require("rehype-katex")],
+        },
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
       },
     ],
   ],

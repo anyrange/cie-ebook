@@ -1,5 +1,5 @@
 {
-  "name": "my-website-classic",
+  "name": "latest-nie-cwb",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,26 +9,27 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
     "test": "docusaurus build & docusaurus serve"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.66",
-    "@docusaurus/mdx-loader": "^2.0.0-alpha.37",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
-    "@docusaurus/preset-classic": "2.0.0-alpha.66",
-    "@easyops-cn/docusaurus-search-local": "0.13.1",
-    "@mdx-js/react": "^1.5.8",
+    "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.70",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.70",
+    "@docusaurus/plugin-pwa": "^2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@easyops-cn/docusaurus-search-local": "^0.14.2",
+    "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
-    "docusaurus-plugin-sass": "^0.1.11",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-player": "^2.6.2",
+    "react-player": "^2.7.2",
     "rehype-katex": "^4.0.0",
     "remark-math": "^3.0.1"
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.5%",
       "not dead",
       "not op_mini all"
     ],
