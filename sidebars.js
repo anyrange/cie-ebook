@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
-    Home: ["introduction", "in-dev"],
-    'Atomic Structure': [
+    "Home": ["introduction", "about", "in-dev"],
+    "Atomic Structure": [
       "atomic-structure/classroom-language",
       "atomic-structure/language-structure",
       "atomic-structure/vocabulary-practice-tips",
@@ -15,7 +15,7 @@ module.exports = {
       "atomic-structure/bloom-taxonomy",
       "atomic-structure/video-lesson",
       "atomic-structure/students-self-study",
-      "atomic-structure/teaching-method"
+      "atomic-structure/teaching-method",
     ],
     Periodicity: [
       "periodicity/classroom-language",
@@ -27,7 +27,7 @@ module.exports = {
       "periodicity/bloom-taxonomy",
       "periodicity/video-lesson",
       "periodicity/students-self-study",
-      "periodicity/teaching-method"
+      "periodicity/teaching-method",
     ],
     Bonding: [
       "bonding/classroom-language",
@@ -39,7 +39,7 @@ module.exports = {
       "bonding/bloom-taxonomy",
       "bonding/video-lesson",
       "bonding/students-self-study",
-      "bonding/teaching-method"
+      "bonding/teaching-method",
     ],
     Energetics: [
       "energetics/classroom-language",
@@ -51,7 +51,7 @@ module.exports = {
       "energetics/bloom-taxonomy",
       "energetics/video-lesson",
       "energetics/students-self-study",
-      "energetics/teaching-method"
-    ]
+      "energetics/teaching-method",
+    ],
   },
 };

@@ -30,7 +30,7 @@ module.exports = {
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} cie-ebook, Built with Docusaurus.`,
     },
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
     hideableSidebar: true,
     colorMode: {
       defaultMode: "light",

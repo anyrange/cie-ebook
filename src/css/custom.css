@@ -1,10 +1,8 @@
 @import url("https://fast.fonts.net/cssapi/0340becf-de91-4caa-9bd5-90b2ef07bbd3.css");
-
 body {
   font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, Verdana,
     sans-serif;
 }
-
 :root {
   --ifm-color-primary: #54adcb;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -18,11 +16,19 @@ body {
   --navbar-color-dark: #1c1e21;
   --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="grey" alt="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>') !important;
 }
+.intro-picture {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.5s ease;
+}
+.intro-picture:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.5s ease;
+}
 .footer {
   display: none !important;
 }
 .container {
-  margin-left: 1.5% !important;
+  margin-left: 2% !important;
 }
 .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-,
 .docSidebarContainer_3_JD,
@@ -31,14 +37,24 @@ body {
   background-color: var(--ifm-color-emphasis-100);
 }
 .menu__link--active {
-  color: #424242 !important;
+  color: rgb(66, 66, 66) !important;
   font-weight: bold !important;
 }
-.menu__link--active:not(.menu__link--sublist) {
-  background: none;
+.menu__link--sublist {
+  font-weight: normal !important;
+  color: rgb(66, 66, 66) !important;
+}
+.menu__link--sublist:active {
+  font-weight: bold !important;
+  transition: 5s;
+}
+.menu__link--active {
+  background: none !important;
+  font-weight: bold !important;
 }
 .menu__link {
   outline: none !important;
+  font-size: 16px;
 }
 .menu__link:hover {
   background: none;
@@ -51,7 +67,7 @@ body {
 }
 .navbar__search-input {
   border-radius: 10px;
-  width: 17.5rem;
+  width: 20.5rem;
   outline: none;
 }
 [data-theme="dark"] .menu__link:hover {
