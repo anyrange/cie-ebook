@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 const Frame = ({ src, width, height, scrolling, style, title }) => {
   return (
