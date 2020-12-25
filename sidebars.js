@@ -40,6 +40,18 @@ module.exports = {
       "bonding/video-lesson",
       "bonding/students-self-study",
       "bonding/teaching-method"
+    ],
+    Energetics: [
+      "energetics/classroom-language",
+      "energetics/language-structure",
+      "energetics/vocabulary-practice-tips",
+      "energetics/glossary",
+      "energetics/reading",
+      "energetics/practice-exercises",
+      "energetics/bloom-taxonomy",
+      "energetics/video-lesson",
+      "energetics/students-self-study",
+      "energetics/teaching-method"
     ]
   },
 };
