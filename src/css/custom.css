@@ -41,8 +41,8 @@ body {
   font-weight: bold !important;
 }
 .menu__link--sublist {
-  font-weight: normal !important;
   color: rgb(66, 66, 66) !important;
+  font-weight: 400;
 }
 .menu__link--sublist:active {
   font-weight: bold !important;
