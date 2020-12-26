@@ -58,5 +58,16 @@ module.exports = {
       "kinetics/students-self-study",
       "kinetics/teaching-method",
     ],
+    Equilibrium: [
+      "equilibrium/classroom-language",
+      "equilibrium/language-structure",
+      "equilibrium/vocabulary-practice-tips",
+      "equilibrium/glossary",
+      "equilibrium/reading-equilibrium",
+      "equilibrium/bloom-taxonomy",
+      "equilibrium/video-lesson",
+      "equilibrium/students-self-study",
+      "equilibrium/teaching-method",
+    ]
   },
 };
