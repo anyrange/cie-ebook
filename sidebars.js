@@ -1,22 +1,16 @@
 module.exports = {
   someSidebar: {
-    "Home": ["introduction", "about", "in-dev"],
+    Home: ["introduction", "about", "in-dev"],
     "Atomic Structure": [
       "atomic-structure/classroom-language",
       "atomic-structure/language-structure",
       "atomic-structure/vocabulary-practice-tips",
       "atomic-structure/glossary",
-      {"The structure of an atom": [
-      "atomic-structure/the-structure-of-an-atom/reading",
-      "atomic-structure/the-structure-of-an-atom/practice-exercises"]},
-      {"Electron shell of an atom": [
-        "atomic-structure/electron-shell-of-an-atom/reading",
-        "atomic-structure/electron-shell-of-an-atom/practice-exercises"]},
-      {"Mass spectrometry": [
-        "atomic-structure/mass-spectrometry/reading",
-        "atomic-structure/mass-spectrometry/practice-exercises"]},
+      "atomic-structure/reading-the-structure-of-an-atom", //task
+      "atomic-structure/reading-electron-shell-of-an-atom", //task
+      "atomic-structure/reading-mass-spectrometry", //task
+      "atomic-structure/video-lesson", //task
       "atomic-structure/bloom-taxonomy",
-      "atomic-structure/video-lesson",
       "atomic-structure/students-self-study",
       "atomic-structure/teaching-method",
     ],
@@ -25,10 +19,9 @@ module.exports = {
       "periodicity/language-structure",
       "periodicity/vocabulary-practice-tips",
       "periodicity/glossary",
-      "periodicity/reading",
-      "periodicity/practice-exercises",
+      "periodicity/reading-periodicity", //task
+      "periodicity/video-lesson", //task
       "periodicity/bloom-taxonomy",
-      "periodicity/video-lesson",
       "periodicity/students-self-study",
       "periodicity/teaching-method",
     ],
@@ -37,10 +30,9 @@ module.exports = {
       "bonding/language-structure",
       "bonding/vocabulary-practice-tips",
       "bonding/glossary",
-      "bonding/reading",
-      "bonding/practice-exercises",
+      "bonding/reading-bonding", //task
+      "bonding/video-lesson", //task
       "bonding/bloom-taxonomy",
-      "bonding/video-lesson",
       "bonding/students-self-study",
       "bonding/teaching-method",
     ],
@@ -49,10 +41,9 @@ module.exports = {
       "energetics/language-structure",
       "energetics/vocabulary-practice-tips",
       "energetics/glossary",
-      "energetics/reading",
-      "energetics/practice-exercises",
+      "energetics/reading-the-enthalpy-changes", //task
+      "energetics/video-lesson", //task
       "energetics/bloom-taxonomy",
-      "energetics/video-lesson",
       "energetics/students-self-study",
       "energetics/teaching-method",
     ],
@@ -61,10 +52,9 @@ module.exports = {
       "kinetics/language-structure",
       "kinetics/vocabulary-practice-tips",
       "kinetics/glossary",
-      "kinetics/reading",
-      "kinetics/practice-exercises",
+      "kinetics/reading-the-rate-of-reaction", //task
+      "kinetics/video-lesson", //task
       "kinetics/bloom-taxonomy",
-      "kinetics/video-lesson",
       "kinetics/students-self-study",
       "kinetics/teaching-method",
     ],

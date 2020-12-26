@@ -11,3 +11,18 @@ TASKS:
 Video
 width="80%"
 height="492px"
+
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+<TabItem value="worksheet">
+</TabItem>
+
+<TabItem value="exercises">
+</TabItem>
+</Tabs>

@@ -108,3 +108,13 @@ menu__link menuLinkText_yu3-:hover {
 button button--secondary button--outline collapseSidebarButton_284Q {
   cursor: pointer !important;
 }
+.tabs {
+  border-bottom: 1px solid #ccc !important;
+  margin-bottom: 2rem;
+}
+.tabs__item {
+  border-radius: 0;
+}
+.hash-link {
+  display: none;
+}
