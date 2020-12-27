@@ -1,6 +1,6 @@
 import React from "react";
 
-const Frame = ({ src, width, height, scrolling, style, title }) => {
+const Frame = ({ src, width, height, scrolling, style, title, id }) => {
   return (
     <iframe
       title={title}
@@ -9,6 +9,9 @@ const Frame = ({ src, width, height, scrolling, style, title }) => {
       height={height}
       scrolling={scrolling}
       style={style}
+      id={id}
+      frameborder="0"
+      loading="lazy"
     />
   );
 };
