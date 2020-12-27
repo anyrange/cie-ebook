@@ -69,7 +69,7 @@ module.exports = {
       "equilibrium/students-self-study",
       "equilibrium/teaching-method",
     ],
-    'Introduction to organic chemistry. Alkanes':[
+    'Alkanes':[
       "alkanes/classroom-language",
       "alkanes/language-structure",
       "alkanes/vocabulary-practice-tips",
