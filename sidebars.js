@@ -68,6 +68,17 @@ module.exports = {
       "equilibrium/bloom-taxonomy",
       "equilibrium/students-self-study",
       "equilibrium/teaching-method",
+    ],
+    'Introduction to organic chemistry. Alkanes':[
+      "alkanes/classroom-language",
+      "alkanes/language-structure",
+      "alkanes/vocabulary-practice-tips",
+      "alkanes/glossary",
+      "alkanes/reading-equilibrium",
+      "alkanes/video-lesson",
+      "alkanes/bloom-taxonomy",
+      "alkanes/students-self-study",
+      "alkanes/teaching-method",
     ]
   },
 };
