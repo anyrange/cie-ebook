@@ -64,8 +64,8 @@ module.exports = {
       "equilibrium/vocabulary-practice-tips",
       "equilibrium/glossary",
       "equilibrium/reading-equilibrium",
-      "equilibrium/bloom-taxonomy",
       "equilibrium/video-lesson",
+      "equilibrium/bloom-taxonomy",
       "equilibrium/students-self-study",
       "equilibrium/teaching-method",
     ]
