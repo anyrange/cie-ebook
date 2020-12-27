@@ -58,5 +58,27 @@ module.exports = {
       "kinetics/students-self-study",
       "kinetics/teaching-method",
     ],
+    Equilibrium: [
+      "equilibrium/classroom-language",
+      "equilibrium/language-structure",
+      "equilibrium/vocabulary-practice-tips",
+      "equilibrium/glossary",
+      "equilibrium/reading-equilibrium",
+      "equilibrium/video-lesson",
+      "equilibrium/bloom-taxonomy",
+      "equilibrium/students-self-study",
+      "equilibrium/teaching-method",
+    ],
+    'Introduction to organic chemistry. Alkanes':[
+      "alkanes/classroom-language",
+      "alkanes/language-structure",
+      "alkanes/vocabulary-practice-tips",
+      "alkanes/glossary",
+      "alkanes/reading-equilibrium",
+      "alkanes/video-lesson",
+      "alkanes/bloom-taxonomy",
+      "alkanes/students-self-study",
+      "alkanes/teaching-method",
+    ]
   },
 };
