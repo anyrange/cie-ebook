@@ -9,8 +9,8 @@ TASKS:
 
 
 Video
-width="calc(2.9 * 16vw)"
-height="calc(2.9 * 9vw)"
+width="80%"
+height="492px"
 
 
 <Tabs
