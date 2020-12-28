@@ -14,7 +14,7 @@ module.exports = {
   projectName: "cie-ebook",
   themeConfig: {
     navbar: {
-      title: "Chemistry in English",
+      title: "CIE-Ebook",
       logo: {
         alt: "Website Logo",
         src: "img/logo.svg",
@@ -34,7 +34,7 @@ module.exports = {
     hideableSidebar: true,
     colorMode: {
       defaultMode: "light",
-      disableSwitch: false,
+      disableSwitch: true,
       respectPrefersColorScheme: false,
       switchConfig: {
         darkIcon: "⠀",
