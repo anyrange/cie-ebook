@@ -69,12 +69,13 @@ module.exports = {
       "equilibrium/students-self-study",
       "equilibrium/teaching-method",
     ],
-    'Alkanes':[
+    Alkanes:[
       "alkanes/classroom-language",
       "alkanes/language-structure",
       "alkanes/vocabulary-practice-tips",
       "alkanes/glossary",
-      "alkanes/reading-equilibrium",
+      "alkanes/reading-alkanes",
+      "alkanes/reading-hydrocarbons",
       "alkanes/video-lesson",
       "alkanes/bloom-taxonomy",
       "alkanes/students-self-study",
