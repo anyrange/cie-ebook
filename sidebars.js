@@ -81,6 +81,17 @@ module.exports = {
       'alkanes/students-self-study',
       'alkanes/teaching-method',
     ],
+    Alkenes: [
+      'alkenes/classroom-language',
+      'alkenes/language-structure',
+      'alkenes/vocabulary-practice-tips',
+      'alkenes/glossary',
+      'alkenes/reading-alkanes',
+      'alkenes/video-lesson',
+      'alkenes/bloom-taxonomy',
+      'alkenes/students-self-study',
+      'alkenes/teaching-method',
+    ],
     Appendix: [
       'appendix/appendix-1'
     ],
