@@ -92,6 +92,17 @@ module.exports = {
       'alkenes/students-self-study',
       'alkenes/teaching-method',
     ],
+    Alcohols: [
+      'alcohols/classroom-language',
+      'alcohols/language-structure',
+      'alcohols/vocabulary-practice-tips',
+      'alcohols/glossary',
+      'alcohols/reading-alkanes',
+      'alcohols/video-lesson',
+      'alcohols/bloom-taxonomy',
+      'alcohols/students-self-study',
+      'alcohols/teaching-method',
+    ],
     Appendix: [
       'appendix/appendix-1'
     ],
