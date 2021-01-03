@@ -103,6 +103,17 @@ module.exports = {
       'alcohols/students-self-study',
       'alcohols/teaching-method',
     ],
+    Halogenoalkanes: [
+      'halogenoalkanes/classroom-language',
+      'halogenoalkanes/language-structure',
+      'halogenoalkanes/vocabulary-practice-tips',
+      'halogenoalkanes/glossary',
+      'halogenoalkanes/reading-alkanes',
+      'halogenoalkanes/video-lesson',
+      'halogenoalkanes/bloom-taxonomy',
+      'halogenoalkanes/students-self-study',
+      'halogenoalkanes/teaching-method',
+    ],
     Appendix: [
       'appendix/appendix-1'
     ],
