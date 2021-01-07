@@ -128,6 +128,17 @@ module.exports = {
       'analytical-techniques/students-self-study',
       'analytical-techniques/teaching-method',
     ],
+    'The redox reactions':[
+      'the-redox-reactions/classroom-language',
+      'the-redox-reactions/language-structure',
+      'the-redox-reactions/vocabulary-practice-tips',
+      'the-redox-reactions/glossary',
+      'the-redox-reactions/reading-alcohols',
+      'the-redox-reactions/video-lesson',
+      'the-redox-reactions/bloom-taxonomy',
+      'the-redox-reactions/students-self-study',
+      'the-redox-reactions/teaching-method',
+    ],
     Appendix: [
       'appendix/appendix-1'
     ],
