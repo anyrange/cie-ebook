@@ -133,7 +133,7 @@ module.exports = {
       'the-redox-reactions/language-structure',
       'the-redox-reactions/vocabulary-practice-tips',
       'the-redox-reactions/glossary',
-      'the-redox-reactions/reading-alcohols',
+      'the-redox-reactions/reading-redox-reaction',
       'the-redox-reactions/video-lesson',
       'the-redox-reactions/bloom-taxonomy',
       'the-redox-reactions/students-self-study',
