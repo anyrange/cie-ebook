@@ -139,6 +139,17 @@ module.exports = {
       'the-redox-reactions/students-self-study',
       'the-redox-reactions/teaching-method',
     ],
+    'Halogens':[
+      'halogens/classroom-language',
+      'halogens/language-structure',
+      'halogens/vocabulary-practice-tips',
+      'halogens/glossary',
+      'halogens/reading-halogens',
+      'halogens/video-lesson',
+      'halogens/bloom-taxonomy',
+      'halogens/students-self-study',
+      'halogens/teaching-method',
+    ],
     Appendix: [
       'appendix/appendix-1'
     ],
