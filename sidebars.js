@@ -150,6 +150,17 @@ module.exports = {
       'halogens/students-self-study',
       'halogens/teaching-method',
     ],
+    'The alkaline earth elements':[
+      'alkaline-earth-elements/classroom-language',
+      'alkaline-earth-elements/language-structure',
+      'alkaline-earth-elements/vocabulary-practice-tips',
+      'alkaline-earth-elements/glossary',
+      'alkaline-earth-elements/reading-alkaline-earth-elements',
+      'alkaline-earth-elements/video-lesson',
+      'alkaline-earth-elements/bloom-taxonomy',
+      'alkaline-earth-elements/students-self-study',
+      'alkaline-earth-elements/teaching-method',
+    ],
     Appendix: [
       'appendix/appendix-1'
     ],
