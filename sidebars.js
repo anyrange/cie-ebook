@@ -161,6 +161,17 @@ module.exports = {
       'alkaline-earth-elements/students-self-study',
       'alkaline-earth-elements/teaching-method',
     ],
+    'Thermodynamics':[
+      'thermodynamics/classroom-language',
+      'thermodynamics/language-structure',
+      'thermodynamics/vocabulary-practice-tips',
+      'thermodynamics/glossary',
+      'thermodynamics/reading-thermodynamics',
+      'thermodynamics/video-lesson',
+      'thermodynamics/bloom-taxonomy',
+      'thermodynamics/students-self-study',
+      'thermodynamics/teaching-method',
+    ],
     Appendix: [
       'appendix/appendix-1'
     ],
