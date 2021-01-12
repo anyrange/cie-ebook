@@ -172,8 +172,20 @@ module.exports = {
       'thermodynamics/students-self-study',
       'thermodynamics/teaching-method',
     ],
+    'Chemical calculations':[
+      'сhemical-calculations/classroom-language',
+      'сhemical-calculations/language-structure',
+      'сhemical-calculations/vocabulary-practice-tips',
+      'сhemical-calculations/glossary',
+      'сhemical-calculations/reading-thermodynamics',
+      'сhemical-calculations/video-lesson',
+      'сhemical-calculations/bloom-taxonomy',
+      'сhemical-calculations/students-self-study',
+      'сhemical-calculations/teaching-method',
+    ],
     Appendix: [
-      'appendix/appendix-1'
+      'appendix/appendix-1',
+      'appendix/appendix-2'
     ],
   },
 };
