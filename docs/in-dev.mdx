@@ -9,6 +9,7 @@ hide_title: true
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import ReactPlayer from "react-player";
+import Player from "@site/src/components/Player";
 import Highlight from "@site/src/components/Highlight";
 import Math from "@site/src/components/Math";
 
@@ -60,21 +61,11 @@ import Math from "@site/src/components/Math";
 
 ### Video Player
 
-<ReactPlayer
-  url="https://youtu.be/IvUU8joBb1Q?t=30"
-  width="853px"
-  height="480px"
-  controls={true}
-/>
+<Player url="https://youtu.be/IvUU8joBb1Q?t=30" />
 
 ### Local Video Player
 
-<ReactPlayer
-  url="/video/Rabbit.mp4"
-  width="853px"
-  height="480px"
-  controls={true}
-/>
+<Player url="/video/Rabbit.mp4" />
 
 ### Local Audio Player 1/2
 

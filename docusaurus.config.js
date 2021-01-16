@@ -1,6 +1,3 @@
-const math = require("remark-math");
-const katex = require("rehype-katex");
-
 module.exports = {
   title: "⠀",
   tagline: "web version of book",
@@ -80,7 +77,6 @@ module.exports = {
       {
         debug: true,
         offlineModeActivationStrategies: ["appInstalled", "queryString"],
-        //swCustom: path.resolve(__dirname, 'src/sw.js'),
         pwaHead: [
           {
             tagName: "link",
@@ -90,12 +86,12 @@ module.exports = {
           {
             tagName: "link",
             rel: "manifest",
-            href: "/manifest.json", // your PWA manifest
+            href: "/manifest.json",
           },
           {
             tagName: "meta",
             name: "theme-color",
-            content: "rgb(37, 194, 160)",
+            content: "rgb(33, 150, 243)",
           },
           {
             tagName: "meta",
@@ -140,22 +136,11 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/wsehl/nis-cwb/tree/master",
           routeBasePath: "/",
-          remarkPlugins: [require("remark-math")],
-          rehypePlugins: [require("rehype-katex")],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
-  ],
-  stylesheets: [
-    {
-      href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css",
-      type: "text/css",
-      integrity:
-        "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X",
-      crossorigin: "anonymous",
-    },
   ],
 };
