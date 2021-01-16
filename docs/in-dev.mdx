@@ -45,18 +45,6 @@ import Math from "@site/src/components/Math";
   <p>Water</p>
 </details>
 
-### Math
-
-- $\frac{\delta W(x;p)}{\delta p}$ = Jacobian Matrix (Matrix of Partial Derivatives)
-  - $x = \begin{bmatrix}x \\ y\end{bmatrix}$, $p=\{p_1,...,p_N\}$
-    - x is shorthand for the coordinates
-    - p is a vector of parameters
-  - $W(x;p) = \begin{bmatrix}W_x(x,y;p) \\ W_y(x,y;p)\end{bmatrix}$
-    - $W(x;p)\equiv W(x,y;p)$ and it is a linear transformation of the coordinates.
-    - $W_x(x,y;p)$ refers to the transformation to the x-axis position by $W(x,y;p)$.
-  - $\frac{\delta W(x;p)}{\delta p} = \begin{bmatrix}\frac{\delta W_x}{\delta p_1} & \frac{\delta W_x}{\delta p_2} & ... & \frac{\delta W_x}{\delta p_N} \\ \frac{\delta W_y}{\delta p_1} & \frac{\delta W_y}{\delta p_2} & ... & \frac{\delta W_y}{\delta p_N}\end{bmatrix}$
-    - Derivative of this transformation w.r.t. p is equivalent to obtaining a vector of the equations differentiated by each parameter $p_i$
-
 ### Tabs
 
 <Tabs
