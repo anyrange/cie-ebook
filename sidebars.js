@@ -185,7 +185,8 @@ module.exports = {
     ],
     Appendix: [
       'appendix/appendix-1',
-      'appendix/appendix-2'
+      'appendix/appendix-2',
+      'appendix/appendix-3'
     ],
   },
 };
