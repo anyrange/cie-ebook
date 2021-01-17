@@ -101,7 +101,7 @@ module.exports = {
           {
             tagName: "meta",
             name: "apple-mobile-web-app-status-bar-style",
-            content: "#3a57ab",
+            content: "#2196f3",
           },
           {
             tagName: "link",
@@ -112,7 +112,7 @@ module.exports = {
             tagName: "link",
             rel: "mask-icon",
             href: "/img/logo.svg",
-            color: "#3a57ab",
+            color: "#2196f3",
           },
           {
             tagName: "meta",
@@ -122,7 +122,7 @@ module.exports = {
           {
             tagName: "meta",
             name: "msapplication-TileColor",
-            content: "#3a57ab",
+            content: "#2196f3",
           },
         ],
       },
