@@ -184,10 +184,11 @@ module.exports = {
       'сhemical-calculations/teaching-method',
     ],
     Appendix: [
-      'appendix/appendix-1',
-      'appendix/appendix-2',
-      'appendix/appendix-3',
-      'appendix/appendix-4'
+      'appendix/1',
+      'appendix/2',
+      'appendix/3',
+      'appendix/4',
+      'appendix/5'
     ],
   },
 };
