@@ -53,13 +53,16 @@ module.exports = {
       isCloseable: true,
     },
     */
+    googleAnalytics: {
+      trackingID: "G-G57B9BRB2N",
+      anonymizeIP: true,
+    },
     gtag: {
       trackingID: "G-G57B9BRB2N",
       anonymizeIP: true,
     },
   },
   plugins: [
-    "@docusaurus/plugin-google-gtag",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
