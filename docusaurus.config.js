@@ -39,7 +39,6 @@ module.exports = {
           marginLeft: "2px",
         },
         lightIcon: "⠀",
-
         lightIconStyle: {
           marginLeft: "1px",
         },
@@ -55,11 +54,17 @@ module.exports = {
     },
     */
     googleAnalytics: {
-      trackingID: "UA-141789564-1",
+      trackingID: "G-G57B9BRB2N",
+      anonymizeIP: true,
+    },
+    gtag: {
+      trackingID: "G-G57B9BRB2N",
       anonymizeIP: true,
     },
   },
   plugins: [
+    "@docusaurus/plugin-google-analytics",
+    "@docusaurus/plugin-google-gtag",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
@@ -139,6 +144,12 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        sitemap: {
+          cacheTime: 600 * 1000,
+          changefreq: "weekly",
+          priority: 0.5,
+          trailingSlash: false,
         },
       },
     ],
