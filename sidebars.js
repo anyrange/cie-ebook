@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
-    Home: ["introduction", "about"],
-    "Atomic Structure": [
+    "Home": ["introduction", "navigation", "about"],
+    "1. Atomic Structure": [
       "atomic-structure/classroom-language",
       "atomic-structure/language-structure",
       "atomic-structure/vocabulary-practice-tips",
@@ -14,7 +14,7 @@ module.exports = {
       "atomic-structure/students-self-study",
       "atomic-structure/teaching-method",
     ],
-    Periodicity: [
+    "2. Periodicity": [
       "periodicity/classroom-language",
       "periodicity/language-structure",
       "periodicity/vocabulary-practice-tips",
@@ -25,7 +25,7 @@ module.exports = {
       "periodicity/students-self-study",
       "periodicity/teaching-method",
     ],
-    Bonding: [
+    "3. Bonding": [
       "bonding/classroom-language",
       "bonding/language-structure",
       "bonding/vocabulary-practice-tips",
@@ -36,7 +36,7 @@ module.exports = {
       "bonding/students-self-study",
       "bonding/teaching-method",
     ],
-    Energetics: [
+    "4. Energetics": [
       "energetics/classroom-language",
       "energetics/language-structure",
       "energetics/vocabulary-practice-tips",
@@ -47,7 +47,7 @@ module.exports = {
       "energetics/students-self-study",
       "energetics/teaching-method",
     ],
-    Kinetics: [
+    "5. Kinetics": [
       "kinetics/classroom-language",
       "kinetics/language-structure",
       "kinetics/vocabulary-practice-tips",
@@ -58,7 +58,7 @@ module.exports = {
       "kinetics/students-self-study",
       "kinetics/teaching-method",
     ],
-    Equilibrium: [
+    "6. Equilibrium": [
       "equilibrium/classroom-language",
       "equilibrium/language-structure",
       "equilibrium/vocabulary-practice-tips",
@@ -69,7 +69,7 @@ module.exports = {
       "equilibrium/students-self-study",
       "equilibrium/teaching-method",
     ],
-    Alkanes: [
+    "7. Alkanes": [
       "alkanes/classroom-language",
       "alkanes/language-structure",
       "alkanes/vocabulary-practice-tips",
@@ -81,7 +81,7 @@ module.exports = {
       "alkanes/students-self-study",
       "alkanes/teaching-method",
     ],
-    Alkenes: [
+    "8. Alkenes": [
       "alkenes/classroom-language",
       "alkenes/language-structure",
       "alkenes/vocabulary-practice-tips",
@@ -92,7 +92,7 @@ module.exports = {
       "alkenes/students-self-study",
       "alkenes/teaching-method",
     ],
-    Alcohols: [
+    "9. Alcohols": [
       "alcohols/classroom-language",
       "alcohols/language-structure",
       "alcohols/vocabulary-practice-tips",
@@ -103,7 +103,7 @@ module.exports = {
       "alcohols/students-self-study",
       "alcohols/teaching-method",
     ],
-    Halogenoalkanes: [
+    "10. Halogenoalkanes": [
       "halogenoalkanes/classroom-language",
       "halogenoalkanes/language-structure",
       "halogenoalkanes/vocabulary-practice-tips",
@@ -114,7 +114,7 @@ module.exports = {
       "halogenoalkanes/students-self-study",
       "halogenoalkanes/teaching-method",
     ],
-    "Analytical techniques": [
+    "11. Analytical techniques": [
       "analytical-techniques/classroom-language",
       "analytical-techniques/language-structure",
       "analytical-techniques/vocabulary-practice-tips",
@@ -128,7 +128,7 @@ module.exports = {
       "analytical-techniques/students-self-study",
       "analytical-techniques/teaching-method",
     ],
-    "The redox reactions": [
+    "12. The redox reactions": [
       "the-redox-reactions/classroom-language",
       "the-redox-reactions/language-structure",
       "the-redox-reactions/vocabulary-practice-tips",
@@ -139,7 +139,7 @@ module.exports = {
       "the-redox-reactions/students-self-study",
       "the-redox-reactions/teaching-method",
     ],
-    Halogens: [
+    "13. Halogens": [
       "halogens/classroom-language",
       "halogens/language-structure",
       "halogens/vocabulary-practice-tips",
@@ -150,7 +150,7 @@ module.exports = {
       "halogens/students-self-study",
       "halogens/teaching-method",
     ],
-    "The alkaline earth elements": [
+    "14. The alkaline earth elements": [
       "alkaline-earth-elements/classroom-language",
       "alkaline-earth-elements/language-structure",
       "alkaline-earth-elements/vocabulary-practice-tips",
@@ -161,7 +161,7 @@ module.exports = {
       "alkaline-earth-elements/students-self-study",
       "alkaline-earth-elements/teaching-method",
     ],
-    Thermodynamics: [
+    "15. Thermodynamics": [
       "thermodynamics/classroom-language",
       "thermodynamics/language-structure",
       "thermodynamics/vocabulary-practice-tips",
@@ -172,7 +172,7 @@ module.exports = {
       "thermodynamics/students-self-study",
       "thermodynamics/teaching-method",
     ],
-    "Chemical calculations": [
+    "16. Chemical calculations": [
       "сhemical-calculations/classroom-language",
       "сhemical-calculations/language-structure",
       "сhemical-calculations/vocabulary-practice-tips",
@@ -183,7 +183,7 @@ module.exports = {
       "сhemical-calculations/students-self-study",
       "сhemical-calculations/teaching-method",
     ],
-    Appendix: [
+    "Appendix": [
       "appendix/1",
       "appendix/2",
       "appendix/3",
