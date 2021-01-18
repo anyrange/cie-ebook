@@ -58,11 +58,11 @@ module.exports = {
       trackingID: "G-G57B9BRB2N",
       anonymizeIP: true,
     },
+    */
     gtag: {
-      trackingID: "G-G57B9BRB2N",
+      trackingID: "G-SZQK03TWJ3",
       anonymizeIP: true,
     },
-    */
   },
   plugins: [
     [
