@@ -7,6 +7,7 @@ hide_title: true
 ---
 
 import Math from '@site/src/components/Math';
+import cal from'@site/static/img/chemical calculations/Code_7mQOhol4Ar.png';
 
 ### 1. The molecular mass of a substance
 
@@ -107,7 +108,7 @@ The molar mass of oxygen is 31.9988 g/mol
 </center>
 <br />
 <center>
-  <Math code="n(O2)=\frac{4g}{31.9988\ gmol^-1}= 0.125\ mol" />
+  <Math code="n(O2)=\frac{4g}{31.9988\ gmol^{-1}}= 0.125\ mol" />
 </center>{' '}
 
 **C.** To calculate the number of molecules in the sample, we multiply the number of moles by Avogadro’s number:
@@ -342,9 +343,9 @@ Find the mass of hydrogen: <Math top='15px' code="\frac{m(H_2O)}{M(H_2O)}:\frac{
 
 **B.** Find the mass of oxygen: m(O) = m (organic compound) - (m(C)+m(H)) = 10.5- (9.006+1.5105) = 0 (no oxygen)  
 **C.** To obtain the relative numbers of atoms of both elements present, we need to calculate the number of moles of each and divide by the number of moles of the element present in the smallest amount:  
-Moles C: <Math top='15px' code='n=\frac{m}{M}:\frac{9.006\ g}{12.011\ gmol^-1}=\ 0.75\ mol\ C' />
+Moles C: <Math top='15px' code='n=\frac{m}{M}:\frac{9.006\ g}{12.011\ gmol^{-1}}=\ 0.75\ mol\ C' />
 
-Moles H: <Math top='15px' code='n=\frac{m}{M}:\frac{1.5105\ g}{1.0079\ gmol^-1}=\ 1.5\ mol\ H' />
+Moles H: <Math top='15px' code='n=\frac{m}{M}:\frac{1.5105\ g}{1.0079\ gmol^{-1}}=\ 1.5\ mol\ H' />
 
 Dividing each number by the number of moles of the element present in the smaller amount gives
 
@@ -586,7 +587,7 @@ Thus 4 mol of Na react with 1 mol of O<sub>2</sub> to produce 2 mol of Na
 **B.** Using the molar mass of O<sub>2</sub> (32.00 g/mol to four significant figures) we can calculate the number of moles of O<sub>2</sub> contained in this mass of O<sub>2</sub>
 
 <center>
-  <Math code="n(O_2)\ =\frac{160\ g}{32.00\ gmol^-1}=\ 5\ mol\ (O_2)" />
+  <Math code="n(O_2)\ =\frac{160\ g}{32.00\ gmol^{-1}}=\ 5\ mol\ (O_2)" />
 </center>
 1. Now use the coefficients in the balanced chemical equation to obtain the number
 of moles of Na needed to react with this number of moles of O<sub>2</sub>:<center>
@@ -641,10 +642,10 @@ We always begin by writing the balanced chemical equation for the reaction:
 We need to calculate the number of moles of ammonia and hydrogen chloride that are
 present in 20 g of each.
 <center>
-  <Math code="n(NH_3)\ =\frac{20.00\ g\ g}{17.00gmol^-1}=\ 1.18 mol" />
+  <Math code="n(NH_3)\ =\frac{20.00\ g\ g}{17.00gmol^{-1}}=\ 1.18 mol" />
 </center>
 <center>
-  <Math code="n(NCl)\ = \frac{20.00\ g}{36.453gmol^-1}=\ 1.549 mol" />
+  <Math code="n(NCl)\ = \frac{20.00\ g}{36.453gmol^{-1}}=\ 1.549 mol" />
 </center>
 C. The number of moles of NH<sub>3</sub> exceeds the number of moles of NCl. Because
 the reactants both have coefficients of 1 in the balanced chemical equation, the
@@ -697,11 +698,14 @@ Asked for: percent yield
 **B.** To determine which reactant is limiting, we need to know their numbers of mol:
 
 <center>
-  <Math top="10px" code="n(CuO)\ =\frac{160\ g}{79.545\ gmol^-1} 2.011\ mol" />
+  <Math
+    top="10px"
+    code="n(CuO)\ =\frac{160\ g}{79.545\ gmol^{-1}} 2.011\ mol"
+  />
 </center>{' '}
 
 <center>
-  <Math top="15px" code="n(H_2) =\frac{2\ g}{2.014\ gmol^-1} 0.993\ mol" />
+  <Math top="15px" code="n(H_2) =\frac{2\ g}{2.014\ gmol^{-1}} 0.993\ mol" />
 </center>
 The reaction requires a 1:1 mole ratio of the two reactants, so hydrogen is the limiting
 reactant. Based on the coefficients in the balanced chemical equation, 1 mol of hydrogen
@@ -740,7 +744,7 @@ The atom economy of a reaction is a measure of the amount of starting materials 
   <Math code="atom\ economy\ =\frac{total\ Mr\ of\ the\ desired\ product}{total\ Mr\ of\ all\ reactants}·\ 100%" />
 </center>
 The ideal atom economy, known as 100% atom economy, for a chemical reaction is taken
-as the process where all reactant atoms are found in the desired product. 
+as the process where all reactant atoms are found in the desired product.
 :::
 
 #### Example
@@ -847,7 +851,7 @@ is read as “the concentration of sodium hydroxide is 1.00 molar.” Solutions 
 known concentration can be prepared either by dissolving a known mass of solute
 in a solvent and diluting to a desired final volume or by diluting the
 appropriate volume of a more concentrated solution (a stock solution) to the
-desired final volume. 
+desired final volume.
 :::
 
 #### Example 1.
@@ -980,17 +984,28 @@ Different units are used to express the concentrations of a solution depending o
   <tr>
     <td>molarity (M)</td>
     <td>moles of solute/liter of solution (mol/L)</td>
-    <td>Used for quantitative reactions in solution and titrations; mass and molecular mass of solute and volume of solution are known.</td>
+    <td>
+      Used for quantitative reactions in solution and titrations; mass and
+      molecular mass of solute and volume of solution are known.
+    </td>
   </tr>
   <tr>
     <td>mole fraction (X)</td>
     <td>moles of solute/total moles present (mol/mol)</td>
-    <td>Used for partial pressures of gases and vapor pressures of some solutions; mass and molecular mass of each component are known.</td>
+    <td>
+      Used for partial pressures of gases and vapor pressures of some solutions;
+      mass and molecular mass of each component are known.
+    </td>
   </tr>
   <tr>
-    <td>molality (<em>m</em>)</td>
+    <td>
+      molality (<em>m</em>)
+    </td>
     <td>moles of solute/kg of solvent (mol/kg)</td>
-    <td>Used in determining how colligative properties vary with solute concentration; masses and molecular mass of solute are known.</td>
+    <td>
+      Used in determining how colligative properties vary with solute
+      concentration; masses and molecular mass of solute are known.
+    </td>
   </tr>
   <tr>
     <td>mass percentage (%)</td>
@@ -999,88 +1014,599 @@ Different units are used to express the concentrations of a solution depending o
   </tr>
   <tr>
     <td>parts per thousand (ppt)</td>
-    <td>[mass of solute/mass of solution] × 10<sup>3</sup> (g solute/kg solution)</td>
-    <td>Used in the health sciences, ratio solutions are typically expressed as a proportion, such as 1:1000.</td>
+    <td>
+      [mass of solute/mass of solution] × 10<sup>3</sup> (g solute/kg solution)
+    </td>
+    <td>
+      Used in the health sciences, ratio solutions are typically expressed as a
+      proportion, such as 1:1000.
+    </td>
   </tr>
   <tr>
     <td>parts per million (ppm)</td>
-    <td>[mass of solute/mass of solution] × 10<sup>6</sup> (mg solute/kg solution)</td>
-    <td>Used for trace quantities; masses are known but molecular masses may be unknown.</td>
+    <td>
+      [mass of solute/mass of solution] × 10<sup>6</sup> (mg solute/kg solution)
+    </td>
+    <td>
+      Used for trace quantities; masses are known but molecular masses may be
+      unknown.
+    </td>
   </tr>
   <tr>
     <td>parts per billion (ppb)</td>
-    <td>[mass of solute/mass of solution] × 10<sup>9</sup> (μg solute/kg solution)</td>
-    <td>Used for trace quantities; masses are known but molecular masses may be unknown.</td>
+    <td>
+      [mass of solute/mass of solution] × 10<sup>9</sup> (μg solute/kg solution)
+    </td>
+    <td>
+      Used for trace quantities; masses are known but molecular masses may be
+      unknown.
+    </td>
   </tr>
   <tr>
-    <td colspan='3'>* The molarity of a solution is temperature dependent, but the other units shown in this table are independent of temperature.</td>
+    <td colspan="3">
+      * The molarity of a solution is temperature dependent, but the other units
+      shown in this table are independent of temperature.
+    </td>
   </tr>
 </table>
 :::
 
-#### Example 
+#### Example
 
-For 120 ml of 20% sulfuric acid solution (density 0.72g / ml) calculate  
+For 120 ml of 20% sulfuric acid solution (density 0.72g / ml) calculate
+
 1. the mass of the solution
 2. the mole fraction
 3. the molarity
-4. the molality  
+4. the molality
 
 **Given:** volume, percent and density  
-**Asked for:** mole fraction, molarity, and molality  
+**Asked for:** mole fraction, molarity, and molality
 
 **Strategy:**  
 **A.** Use the density of the solution to calculate the mass of 120 mL solution.  
 **B.** Convert grams of solute and solvent to moles of solute and solvent. Calculate the mole fraction of solute by dividing the moles of solute by the total number of moles of substances present in solution.  
-**С.** Calculate the molarity of the solution: moles of solute per liter of solution. Determine the molality of the solution by dividing the number of moles of solute by the kilograms of solvent.  
+**С.** Calculate the molarity of the solution: moles of solute per liter of solution. Determine the molality of the solution by dividing the number of moles of solute by the kilograms of solvent.
 
 **Solution:**  
 **А.** m= ρ∙V
+
 <center>
-  <Math top='-10px' code="m(solution)\ =\ \frac{0.04\ mol}{0.2\ M}\ ·\ 120\ ml\ =\ 86.4\ g" />
+  <Math
+    top="-10px"
+    code="m(solution)\ =\ \frac{0.04\ mol}{0.2\ M}\ ·\ 120\ ml\ =\ 86.4\ g"
+  />
 </center>
 
-**В.** To calculate the mole fraction of sulfuric acid in the solution, we need to know the mass of sulfuric acid and the number moles of both sulfuric acid and water. The mass of sulfuric acid is  
+**В.** To calculate the mole fraction of sulfuric acid in the solution, we need to know the mass of sulfuric acid and the number moles of both sulfuric acid and water. The mass of sulfuric acid is
+
 <center>
   <Math code="m(sulfuric\ acid)\ =\ \frac{W\ ·\ m\ (solution)}{100%}" />
-</center><br/>
+</center>
+<br />
 <center>
   <Math code="m(sulfuric\ acid)\ =\ \frac{20%\ ·\ 86.4\ g}{100%}\ =\ 17.28\ g" />
-</center><br/>
+</center>
+<br />
 <center>
   <Math code="n(sulfuric\ acid)\ =\ \frac{m}{M}" />
-</center><br/>
+</center>
+<br />
 <center>
   <Math code="n(sulfuric\ acid)\ =\ \frac{17.28\ g}{98\ g/mol}\ =\ 0.176\ mol" />
-</center><br/>
+</center>
+<br />
 <center>
   <Math code="m(H_2O)=m(solution)-m(solut)" />
-</center><br/>
+</center>
+<br />
 <center>
   <Math code="m(H_2O)=86.4-17.28=69.12\ g" />
-</center><br/>
+</center>
+<br />
 <center>
   <Math code="n(H_2O)\ =\frac{69.12\ g}{18\ g/mol} =\ 3.84\ mol" />
-</center><br/>
+</center>
+<br />
 <center>
   <Math code="the\ mole\ fraction\ =\ \frac{moles\ of\ solute}{total\ moles\ present}\ =\ \frac{0.176}{0.176+3.84}=\ 0,0438" />
 </center>
 
-**С.** The molarity of the solution is the number of moles of sulfuric acid per liter of solution. We already know the number of moles of sulfuric acid, so the molarity is  
+**С.** The molarity of the solution is the number of moles of sulfuric acid per liter of solution. We already know the number of moles of sulfuric acid, so the molarity is
+
 <center>
-  <Math top='-5px' code="С(sulfuric\ acid)\ =\ \frac{0.176\ mol}{0.12\ L}\ =\ 1.47M" />
+  <Math
+    top="-5px"
+    code="С(sulfuric\ acid)\ =\ \frac{0.176\ mol}{0.12\ L}\ =\ 1.47M"
+  />
 </center>
-The molality of the solution is the number of moles of sulfuric acid per kilogram of solvent. Because we know the number of moles of sulfuric acid in 69.12 g of water, the calculation is again straight forward:  
+The molality of the solution is the number of moles of sulfuric acid per kilogram
+of solvent. Because we know the number of moles of sulfuric acid in 69.12 g of water,
+the calculation is again straight forward:
 <center>
-  <Math top='5px' code="molality\ of\ the\ solution\ =\ \frac{0.176\ mol}{0.06912\ kg}\ =\ 2.546 mol/kg" />
+  <Math
+    top="5px"
+    code="molality\ of\ the\ solution\ =\ \frac{0.176\ mol}{0.06912\ kg}\ =\ 2.546 mol/kg"
+  />
 </center>
 
-**Answer:**  
+**Answer:**
+
 1. mass of the solution = 86.4g
 2. mole fraction = 0.0438
 3. molarity = 1.47M
-4. molality = 2.546 mol/kg  
+4. molality = 2.546 mol/kg
+
+> **Сheck yourself:**  
+> If 2 liters of a 5% sodium chloride solution (density 0.18g / L) is given, determine its molarity and molality.  
+> **Explain a solution strategy using key expressions.**
+
+### 15. pH and pOH
+
+:::note Notes:
+We can convert between [H<sup>+</sup>] and pH using the following equations:  
+pH = -log[H<sup>+</sup>]<br/>
+[H <sup>+</sup>] = 10<sup>-pH</sup><br/>
+We can convert between [OH<sup>-</sup>] and pOH using the following equations:<br/>
+pOH = -log [OH<sup>-</sup>]<br/>
+[OH<sup>-</sup>] = 10<sup>-pOH</sup><br/>
+For any aqueous solution at 25<sup>∘</sup>C:<br/>
+pH + pOH = 14  
+For every factor of 10 _INCREASE_ in concentration of [H<sup>+</sup>], pH, will _DECREASE_ by 1 unit, and vice versa. Both acid strength and concentration determine [H<sup>+</sup>] and pH.
+:::
+
+#### Example 1. Calculating the pH of a strong base solution
+
+If we use 2 mol of KOH to make of 4.0L an aqueous solution at 25<sup>∘</sup>C, what is the pH of this solution?  
+**Given:** amount of substance, volume solution  
+**Asked for:** pH of solution
+
+**Strategy:**  
+**A.** Calculate the molar concentration of KOH  
+**B.** Calculate [OH<sup>-</sup>] based on the dissociation of KOH  
+**C.** Calculate pOH from [OH<sup>-</sup>]  
+**D.** Calculate pH from pOH using pH + pOH = 14
+
+**Solution:**  
+**A.** Molar concentration is equal to moles of solute per liter of solution:
+
+<center>
+  <Math top="-5px" code="C\ =\frac{n}{V}" />
+</center>
+To calculate the molar concentration of KOH we can use the known values for the moles
+of KOH and the volume of solution:
+<center>
+  <Math top="-5px" code="[KOH]\ =\frac{2\ mol}{4\ L} = 0.5M" />
+</center>
+
+The concentration of KOH in the solution is _0.5 M_  
+**B.** Because KOH is a strong base, it dissociates completely into its constituent ions in aqueous solution: KOH<sub>(ag)</sub>↔K<sup>+</sup><sub>(ag)</sub> + OH<sup>-</sup><sub>(ag)</sub>  
+This balanced equation tells us that every mole of KOH produces one mole of OH<sup>-</sup> in aqueous solution. Therefore, we have the following relationship between [KOH] and [OH<sup>-</sup>]:  
+[KOH] =[OH<sup>-</sup>]=_0.5M_  
+**C.** Now that we know the concentration of [OH<sup>-</sup>], we can calculate pOH using pOH = -log [OH<sup>-</sup>] = - log (0.5) = 0.3  
+**D.** We can calculate pH from pOH using pH + pOH = 14  
+We can substitute the value of pOH we found in «С» to find the pH:  
+pH = 14 – pOH  
+pH = 14 –0.3 = 13.7
+
+#### Example 2. Calculating the pH of a weak acid solution
+
+Calculate the pH of 0.200 moldm<sup>-3</sup> ethanoic acid, CH<sub>3</sub>COOH. (K<sub>a</sub> = 1.74 × 10<sup>-5</sup>mol dm<sup>-3</sup>)  
+**Step 1** Write the equilibrium expression for the reaction.
+
+<center>
+  <Math top="-5px" code="CH_3COOH(aq)\ ↔\ H^+(aq) + CH_3COO^-(aq)" />
+</center>
+<br />
+<center>
+  <Math top="-5px" code="K_a=\frac{[H^+]^2}{[CH_3COOH]}" />
+</center>
+
+**Step 2** Enter the values into the expression.
+
+<center>
+  <Math top="-5px" code="1.74\ ·\ 10^5\ =\frac{[H^+]^2}{(0,2)}" />
+</center>
+
+**Step 3** Rearrange the equation.
+
+<center>
+  <Math top="-5px" code="[H^+]^2\ = 1.74 · 10^{-5} · 0.2 = 0.348 · 10^{-5}" />
+</center>
+
+**Step 4** Take the square root.
+
+<center>
+  <Math top="-5px" code="[H^+]\ =\ \sqrt{3.48 · 10^{-4}}= 1.865 · 10^{-2}" />
+</center>
+
+**Step 5** Calculate pH.
+
+<center>
+  <Math
+    top="-5px"
+    code="pH\ =\ -log10[H^+]=\ -log10(1.865\ ∙10^{-2})\ =\ 1.73(to\ 3\ significant\ figures)"
+  />
+</center>
+
+**Answer:** pH=1.73
+
+> **Сheck yourself:**
+>
+> 1.  If we use 3 mol of NaOH to make of 0.6L an aqueous solution at 40<sup>∘</sup>C, what is the pH of this solution?
+> 2.  Calculate the pH of 0.100 moldm<sup>-3</sup> ethanoic acid, CH<sub>3</sub>COOH. (K<sub>a</sub> = 1.74 × 10<sup>-5</sup>mol dm<sup>-3</sup>)  
+>     **Explain a solution strategy using key expressions.**
+
+### 16. Calculating the pH of a Buffer
+
+:::note Notes:
+Buffers are solutions that resist a change in pH after adding an acid or a base. Buffers contain a weak acid (HA) and its conjugate weak base (A−). Adding a strong electrolyte that contains one ion in common with a reaction system that is at equilibrium shifts the equilibrium in such a way as to reduce the concentration of the common ion. The shift in equilibrium is called the common ion effect. Buffers are characterized by their pH range and buffer capacity. The useful pH range of a buffer depends strongly on the chemical properties of the conjugate weak acid–base pair used to prepare the buffer (the Ka or Kb), whereas its buffer capacity depends solely on the concentrations of the species in the solution. The pH of a buffer can be calculated from the concentrations of the weak acid and the weak base used to prepare it, the concentration of the conjugate base and conjugate acid, and the pK<sub>a</sub> or pK<sub>b</sub> of the weak acid or weak base.  
+An alternative method frequently used to calculate the pH of a buffer solution is based on a rearrangement of the equilibrium equation for the dissociation of a weak acid. The simplified ionization reaction is HA⇌H<sup>+</sup> +A<sup>−</sup> for which the equilibrium constant expression is as follows:
+
+<center>
+  <Math top="-5px" code="K_a\ =\ \frac{[H^+][A^–]}{[HA]}" />
+</center>
+<center>
+  <Math top="15px" code="[H^+]\ =\ K_a\frac{[A^–]}{[HA]}" /> or pH ={' '}
+  <Math top="15px" code="pH\ =\ pK_a\ +\ log\frac{[A^–]}{[HA]}" /> or, more
+  generally, <Math top="15px" code="pH\ =\ pK_a\ +\ log\frac{[base]}{[acid]}" />
+</center>
+<br />
+
+If [base] = [acid] for a buffer, then pH = pKa. Changing this ratio by a factor of 10 either way changes the pH by ±1 unit.  
+Because no single buffer system can effectively maintain a constant pH value over the physiological range of approximately 5 to 7.4, biochemical systems use a set of buffers with overlapping ranges. The most important of these is the CO<sub>2</sub>/HCO<sub>3</sub><sup>−</sup> system, which dominates the buffering action of blood plasma.
+:::
+
+#### Example 1.
+
+What is the pH of a solution that contains 0.03M NH<sub>3</sub> and 0.04M. (pK<sub>b</sub> = 4.76)  
+**Given:** concentration of base, conjugate acid, and pKb  
+**Asked for:** pH
+
+**Strategy:**  
+Substitute values into the Henderson-Hasselbalch equation <Math top='15px' code="pH\ =\ pK_a\ +\ log\frac{[base]}{[acid]}" /> to calculate the pH.
+
+**Solution:**  
+Inserting the given values into the equation <Math top='15px' code="pH\ =\ pK_a\ +\ log\frac{[base]}{[acid]}" />. Thus pK<sub>a</sub> for the ammonium ion is <Math top='3px' code="pK_w − pK_b\ =\ 14.00\ –\ 4.76\ =\ 9.24" />. Substituting this pK<sub>a</sub> value into the Henderson-Hasselbalch equation,
+
+<center>
+  <Math top="15px" code="pH\ =\ 9.24\ +\ log\frac{[0.03]}{[0.04]}\ =\ 9.11" />
+</center>
+
+**Answer:** pH=9.11
+
+#### Example 2.
+
+The buffer solution contained 0.135 M HCO<sub>2</sub>H and 0.215 M HCO<sub>2</sub>Na and had a pH of 3.95.
+
+1. What is the final pH if 5.00 mL of 1.00 M HCl are added to 100 mL of this solution?
+2. What is the final pH if 5.00 mL of 1.00 M NaOH are added?
+
+**Given:** composition and pH of buffer; concentration and volume of added acid or base  
+**Asked for:** final pH
+
+**Strategy:**  
+**1.**  
+**A.** Calculate the amounts of formic acid and formate present in the buffer solution. Then calculate the amount of acid or base added.  
+**B.** Construct a table showing the amounts of all species after the neutralization reaction. Use the final volume of the solution to calculate the concentrations of all species. Finally, substitute the appropriate values into the Henderson-Hasselbalch equation to obtain the pH.
+
+**Solution:**
+The added HCl (a strong acid) or NaOH (a strong base) will react completely with formate (a weak base) or formic acid (a weak acid), respectively, to give formic acid or formate and water. We must therefore calculate the amounts of formic acid and formate present after the neutralization reaction.  
+**A.** We begin by calculating the millimoles of formic acid and formate present in 100 mL of the initial pH 3.95 buffer:
+
+<center>
+  <Math code="n(HCO_2H)\ =log\frac{0.135}{100}=\ 13.5\ mmol" />
+</center>
+<center>
+  <Math code="n(HCO_2^-)\ =log\frac{0.215}{100}=\ 21.5\ mmol" />
+</center>
+
+The millimoles of H<sup>+</sup> in 5.00 mL of 1.00 M HCl is as follows:
+
+<center>
+  <Math code="n(H^+)\ =\ 5\ mL\ ·\ 1M\ =\ 5mmol" />
+</center>
+
+**B.** Next, we construct a table of initial amounts, changes in amounts, and final amounts:
+
+<Math code="HCO_2^-(aq)+H^+(aq)→HCO_2H(aq)" />
+<table>
+  <tr>
+    <td colspan='4'>
+      <center><Math code="HCO_2^−(aq) + H^+(aq) → HCO_2H(aq)" /></center>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>[HCO<sub>2</sub><sup>−</sup>]</td>
+    <td>[H<sup>+</sup>]</td>
+    <td>[HCO<sub>2</sub>H]</td>
+  </tr>
+  <tr>
+    <td>initial</td>
+    <td>21.5 mmol</td>
+    <td>5.00 mmol</td>
+    <td>13.5 mmol</td>
+  </tr>
+  <tr>
+    <td>change</td>
+    <td>−5.00 mmol</td>
+    <td>−5.00 mmol</td>
+    <td>+5.00 mmol</td>
+  </tr>
+  <tr>
+    <td>final</td>
+    <td>16.5 mmol</td>
+    <td>∼0 mmol</td>
+    <td>18.5 mmol</td>
+  </tr>
+</table>
+The final amount of H<sup>+</sup> in solution is given as “∼0 mmol.” For the purposes of the stoichiometry calculation, this is essentially true, but remember that the point of the problem is to calculate the final [H+] and thus the pH. We now have all the information we need to calculate the pH. We can use either the lengthy procedure of Example 14 or the Henderson–Hasselbach equation. Because we have performed many equilibrium calculations in this chapter, we’ll take the latter approach. The Henderson-Hasselbalch equation requires the concentrations of HCO<sub>2</sub><sup>−</sup> and HCO<sub>2</sub>H, which can be calculatedusing the number of millimoles (n) of each and the total volume (V<sub>T</sub>). Substituting these values into the Henderson-Hasselbalch equation,  
+<center><Math code="pH\ =\ pK_a\ +\ log\frac{[base]}{[acid]}=\ K_a\ +\ log\frac{[HCO_2^–]}{[HCO_2H]}" /></center>
+
+Because the total volume appears in both the numerator and denominator, it cancels. We therefore need to use only the ratio of the number of millimoles of the conjugate base to the number of millimoles of the weak acid. So  
+<center><Math code="pH\ =\ pK_a\ +\ log\frac{[base]}{[acid]}=\ K_a\ +\ log\frac{[HCO_2^–]}{[HCO_2H]}=\ 3.75\ +\ log\frac{[16.5]}{[18.5]}=\ 3.75\ –\ 0.050\ =\ 3.7" /></center>  
+
+**2.**  
+The number of millimoles of OH− in 5.00 mL of 1.00 M NaOH is as follows:  
+<center><Math code="n(OH^-)\ =\ 5\ mL\ ·\ 1M\ =\ 5mmol" /></center>  
+
+With this information, we can construct a table of initial amounts, changes in amounts, and final amounts.  
+<table>
+  <tr>
+    <td colspan='4'>
+      <center><Math code="HCO_2H(aq) + OH^−(aq) → HCO_2^−(aq) + H_2O(l)" /></center>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>[HCO<sub>2</sub>H]</td>
+    <td>[OH<sup>-</sup>]</td>
+    <td>[HCO<sub>2</sub><sup>−</sup>]</td>
+  </tr>
+  <tr>
+    <td>initial</td>
+    <td>13.5 mmol</td>
+    <td>5.00 mmol</td>
+    <td>21.5 mmol</td>
+  </tr>
+  <tr>
+    <td>change</td>
+    <td>−5.00 mmol</td>
+    <td>−5.00 mmol</td>
+    <td>+5.00 mmol</td>
+  </tr>
+  <tr>
+    <td>final</td>
+    <td>8.5 mmol</td>
+    <td>∼0 mmol</td>
+    <td>26.5 mmol</td>
+  </tr>
+</table>  
+The final amount of OH<sup>−</sup>− in solution is not actually zero; this is only approximately true based on the stoichiometric calculation. We can calculate the final pH by inserting the numbers of millimoles of both HCO<sub>2</sub><sup>−</sup> and HCO<sub>2</sub>H into the simplified Henderson-Hasselbalch expression  
+<center><Math code="pH\ =\ pK_a\ +\ log\frac{[base]}{[acid]}=\ K_a\ +\ log\frac{[HCO_2^–]}{[HCO_2H]}=\ 3.75\ +\ log\frac{[26.5]}{[8.5]}=\ 3.75\ –\ 0.494\ =\ 4.24" /></center>  
+
+**Answer:** pH=3.7 pH=4.24
 
 >**Сheck yourself:**  
->If 2 liters of a 5% sodium chloride solution (density 0.18g / L) is given, determine its molarity and molality.  
->**Explain a solution strategy using key expressions.**
+>What is the pH of a solution that contains 0.025M NH<sub>3</sub> and 0.15M NH<sub>4</sub>Cl (pK<sub>b</sub> = 4.76)  
+>What is the final pH if 15.00 mL of 0.020 M HCl are added to 0.85 mL of the buffered solution?  
+>What is the final pH if 8.00 mL of 0.120 M NaOH are added to 92.0 mL of the buffered solution?  
+>**Explain a solution strategy using key expressions**
+
+### 17. Applying the Ideal Gas Law  
+
+:::note Notes:
+The empirical relationships among the volume, the temperature, the pressure, and the amount of a gas can be combined into the ideal gas law, PV = nRT. The proportionality constant, R, is called the gas constant and has the value 0.08206 <Math top='10px' code='\frac{L·atm}{K·mol}' /> , 8.3145 <Math top='10px' code='\frac{J}{K·mol}' /> or 1.9872 <Math top='10px' code='\frac{cal}{K·mol}' /> , depending on the units used. The ideal gas law describes the behavior of an ideal gas, a hypothetical substance whose behavior can be explained quantitatively by the ideal gas law and the kinetic molecular theory of gases. Standard temperature and pressure (STP) is 0°C and 1 atm. The volume of 1 mol of an ideal gas at STP is 22.41 L, the standard molar volume. All of the empirical gas relationships are special cases of the ideal gas law in which two of the four parameters are held constant. The ideal gas law allows us to calculate the value of the fourth quantity (P, V, T, or n) needed to describe a gaseous sample when the others are known and also predict the value of these quantities following a change in conditions if the original conditions (values of P, V, T, and n) are known. The ideal gas law can also be used to calculate the density of a gas if its molar mass is known or, conversely, the molar mass of an unknown gas sample if its density is measured.  
+<center><Math top='10px' code='PV\ =\ nRT;\ PV\ =\frac{m}{M}RT;\ \frac{m}{MV}=\ PRT;\ d\ =\frac{m}{V}=\frac{MP}{RT}' /></center>
+:::
+
+#### Example 1.
+
+How many moles of oxygen gas were needed to fill the balloon if its volume was 400L, the temperature at 25°C and the atmospheric pressure was 750 mmHg?  
+**Given:** volume, temperature, and pressure  
+**Asked for:** amount of gas  
+
+**Strategy:**  
+**A.** Solve the ideal gas law for the unknown quantity, in this case n.  
+**B.** Make sure that all quantities are given in units that are compatible with the units of the gas constant. If necessary, convert them to the appropriate units, insert them into the equation you have derived, and then calculate the number of moles of hydrogen gas needed.  
+
+**Solution:**  
+**A.** We are given values for P, T, and V and asked to calculate n. If we solve the ideal gas law for n, we obtain: n=PVRT  
+**B.** P and T are given in units that are not compatible with the units of the gas constant [0.08206 <Math top='10px' code='\frac{L·atm}{K·mol}' />]. We must therefore convert the temperature to kelvins and the pressure to atmospheres:  
+<center><Math code='\frac{1\ atm}{x\ atm}=\frac{760\ mm\ H\ g}{750\ mm\ H\ g}' /></center>
+<center><Math code='x\ =\ 0.9868\ atm' /></center>
+<center><Math code='T=273+25=298' /></center>
+
+Substituting these values into the expression we derived for n, we obtain<br/>n=PVRT=0.9868atm ∙ 400L ∙ 0.08206 <Math top='10px' code='\frac{L·atm}{K·mol}' /> 298K = 9652.85 mol = 9.653 ∙ 10<sup>3</sup> mol  
+
+**Answer:** 9.653∙10<sup>3</sup> mol  
+
+#### Example 2.
+
+A sample of the gas containing nitrogen and oxygen at a pressure of 727 mmHg and a temperature of 18°C weighs 0.289 g in a flask with a volume of 157.0 mL. Calculate the molar mass of the gas and suggest a reasonable chemical formula for the compound.  
+**Given:** pressure, temperature, mass, and volume  
+**Asked for:** molar mass and chemical formula  
+
+**Strategy:**  
+**A.** Solve Equation <Math top='10px' code='\frac{m}{MV}' />=PRT for the molar mass of the gas and then calculate the density of the gas from the information given.  
+**B.** Convert all known quantities to the appropriate units for the gas constant being used. Substitute the known values into your equation and solve for the molar mass.  
+**C.** Propose a reasonable empirical formula using the atomic masses of nitrogen and oxygen and the calculated molar mass of the gas.  
+
+**Solution:**  
+**A.** Density is the mass of the gas divided by its volume:  
+<Math top='-5px' code='d\ =\frac{m}{V}=\frac{0.289\ g}{0.157L}=\ 1.84\frac{g}{L}' />
+
+**B.** We must convert the other quantities to the appropriate units before inserting them into the equation:  
+<center><Math code='T=18+273=291K' /></center><br/>
+<center><Math code='\frac{1\ atm}{x\ atm}=\frac{760\ mm\ H}{727\ mm\ H\ g}' /></center><br/>
+<center><Math top='-15px' code='x\ =\ 0.957\ atm' /></center>  
+The molar mass of the unknown gas is thus <Math top='15px' code='M=\frac{mRT}{pV}=\frac{dRT}{p}' />
+
+<Math code='M=\frac{1.84\ \frac{g}{L}0.08206\ \frac{L\ ·\ atm}{K\ ·\ mol}\ 291K}{0.957\ atm}=\ 45.9\ \frac{g}{mol}' />  
+
+**C.** The atomic masses of N and O are approximately 14 and 16, respectively, so we can construct a list showing the masses of possible combinations:  
+<Math code='M(NO)\ =\ 14+16=30\frac{g}{mol}' /><br/>
+<Math code='M(N_2O)\ =\ 2∙14+16=44\frac{g}{mol}' /><br/>
+<Math code='M(NO_2)\ =\ 14+2∙16\frac{g}{mol}' />
+
+The most likely choice is NO<sub>2</sub> which agrees with the data. The red-brown color of smog also results from the presence of NO<sub>2</sub> gas.  
+**Answer:** NO<sub>2</sub>  
+
+>**Сheck yourself:**  
+>1. Calculate the number of moles in each sample at STP.  
+>a) 224 cm<sup>3</sup> of carbon monoxide  
+>b) 33.6 L of sulfur dioxide  
+>2. Calculate the mass of each sample at STP.  
+>a) 1.12 L of nitrogen dioxide  
+>b) 5.6 ml of methane  
+>3. Calculate the volume in liters of each sample at STP.  
+>a) 1.2 L at 24°C and 26.4 kPa of oxygen  
+>b) 230 mL at −9°C and 745 mmHg of hydrogen   
+>4. Calculate the density of Cl<sub>2</sub> under each set of conditions.  
+>a) 2.4 mol at 96 kPa and -13°C  
+>b) 14.2 g at 0.78 atm and 18°C  
+>
+>**Explain a solution strategy using key expressions.**  
+
+### 18. Stoichiometry Involving Gases
+
+:::note Notes:
+The relationship between the amounts of products and reactants in a chemical reaction can be expressed in units of moles or masses of pure substances, of volumes of solutions, or of volumes of gaseous substances. The ideal gas law can be used to calculate the volume of gaseous products or reactants as needed.  
+The ideal gas equation and the stoichiometry of a reaction can be used to calculate the volume of gas produced or consumed in a reaction.
+:::
+
+#### Example
+
+What volume of NO<sub>2</sub> (in liters) at 18°C and 755 mmHg pressure is required to produce 3.00 tons of HNO<sub>3</sub> according to the equation: 4NO<sub>2</sub>+O<sub>2</sub>+2H<sub>2</sub>O = 4HNO<sub>3</sub>?  
+**Given:** reaction, temperature, pressure, and mass of one product  
+**Asked for:** volume of gaseous reactant
+
+**Strategy:**  
+**A.** Calculate the number of moles of HNO<sub>3</sub> in 3.00 tons. From the stoichiometric coefficients in the balanced chemical equation, calculate the number of moles of NO<sub>2</sub> required.  
+**B.** Use the ideal gas law to determine the volume of NO<sub>2</sub> required under the given conditions. Be sure that all quantities are expressed in the appropriate units.  
+
+**Solution:**  
+We can see from the stoichiometry of the reaction that 4 mol of NO<sub>2</sub> is required to produce 4 mol of HNO<sub>3</sub>.  
+**A.** We begin by calculating the number of moles of HNO<sub>3</sub> in 3.00Tn:  
+
+<Math code='n(HNO_3)\ =\frac{m}{M}=\frac{3∙10^6g}{63\frac{g}{mol}}\ =\ 4.762\ ∙\ 10^4mol' />
+
+We next calculate the number of moles of NO<sub>2</sub> required:  
+<Math code='n(HNO_3)\ =n(NO_2)=\ 4.762\ ∙\ 10^4mol' />  
+
+We must convert the temperature to kelvins and the pressure to atmospheres:  
+<center><Math code='\frac{1\ atm}{x\ atm}=\frac{760\ mm\ H\ g}{755\ mm\ H\ g}' /></center><br/>
+<center><Math code='x\ =\ 0.9934\ atm' /></center><br />
+<center><Math code='T\ =\ 273+18\ =\ 291K' /></center>
+
+**B.** After converting all quantities to the appropriate units, we can use the ideal gas law to calculate the volume of NO<sub>2</sub>:  
+<center><Math code='V\ =\frac{nRT}{P}' /></center><br />
+<center><Math code='V(NO^2)\ =\frac{4.762·\ 10^4\ mol\ ·\ 0.08206\frac{L\ ·\ atm}{K\ ·\ mol}291K}{0.9934\ atm}' /></center><br />
+<center><Math code='V(NO^2)\ =\ 114.47\ ·\ 10^4L' /></center>
+
+**Answer:** The answer means that 114.47∙10<sup>4</sup>L of nitrogen dioxide gas are needed to produce    
+3 Tn of Nitric acid.  
+
+>**Сheck yourself:**  
+>1. Complete the decomposition of a sample of sodium nitrate produced 8.5 g of sodium nitrite and oxygen gas.  
+>What is the mass of sodium nitrate in the original sample?  
+>What mass of oxygen is produced?  
+>What is the volume of oxygen produced at STP?  
+>2. What volume of gas would be produced at 14°C and 728 mmHg by decomposition 6.8 g of hydrogen peroxide? 
+> 
+>**Explain a solution strategy using key expressions.**  
+
+### 19. Calorimetry
+
+:::note Notes:
+Calorimetry is the set of techniques used to measure enthalpy changes during chemical processes. It uses devices called calorimeters, which measure the change in temperature when a chemical reaction is carried out.  
+The magnitude of the temperature change depends on the amount of heat released or absorbed and on the heat capacity of the system.  
+The heat capacity (C) of an object is the amount of energy needed to raise its temperature by 1°C; its units are joules per degree Celsius.  
+The specific heat (Cs) of a substance is the amount of energy needed to raise the temperature of 1 g of the substance by 1°C, and the molar heat capacity (Cp) is the amount of energy needed to raise the temperature of 1 mol of a substance by 1°C.  
+Liquid water has one of the highest specific heats known. Heat flow measurements can be made with either a constant-pressure calorimeter, which gives ΔH values directly, or a bomb calorimeter, which operates at constant volume and is particularly useful for measuring enthalpies of combustion.  
+<center>q=nC<sub>p</sub>ΔT, C<sub>p</sub> - the molar heat capacity</center>  
+<center>q=mC<sub>s</sub>ΔT,  C<sub>s</sub> - the specific heat</center>   
+<center>ΔH<sub>rxn</sub>=q<sub>rxn</sub>= − q<sub>calorimater</sub> = − mC<sub>s</sub>ΔT</center>
+:::
+
+#### Example 
+When 6.2 g of solid sodium hydroxide is dissolved in 200.0 mL of distilled water in a calorimeter, the temperature of the liquid increases from 21.0°C to 28.4°C. The density of water in this temperature range averages 0.9978<Math code='\frac{g}{cm^3}' />. What is ΔH<sub>soln</sub> (in kilojoules per mole)? Assume that the calorimeter absorbs a negligible amount of heat and, because of the large volume of water, the specific heat of the solution is the same as the specific heat of pure water.  
+**Given:** mass of substance, volume of solvent, and initial and final temperatures  
+**Asked for:** ΔH<sub>soln</sub>  
+
+**Strategy:**  
+**A.** Calculate the mass of the solution from its volume and density and calculate the temperature change of the solution.  
+**B.** Find the heat flow that accompanies the dissolution reaction by substituting the appropriate values into <Math code='ΔH_{rxn}=q_{rxn}= −q_{calorimater} = −mC_sΔT' />  
+**C.** Use the molar mass of NaOH to calculate ΔH<sub>sol</sub>n.
+
+**Solution:**  
+**A.** To calculate ΔH<sub>soln</sub>, we must first determine the amount of heat released in the calorimetry experiment. The mass of the solution is  
+<Math code='(200.0mLH_2O)∙(0.9978\frac{g}{cm^3})+6.2g\ NaOH=205.8g' /> 
+
+the temperature change is (28.4°C − 21.0°C) = +7.4°C.  
+**B.** Because the solution is not very concentrated (approximately 0.775 M), we assume that the specific heat of the solution is the same as that of water. The heat flow that accompanies dissolution is thus  
+<Math code='q_{calorimater}= mC_sΔT = 205.8g\frac{1.84 J}{g^oC}7.4^oC=7371J=7.371 kJ' /> 
+
+The temperature of the solution increased because heat was absorbed by the solution (q > 0). Where did this heat come from? It was released by NaOH dissolving in water. From <br/>Equation we see that ΔH<sub>rxn</sub> = −q<sub>calorimeter</sub> = −7.371 k  
+This experiment tells us that dissolving 6.2 g of NaOH in water is accompanied by the release of 7.371 kJ of energy. Because the temperature of the solution increased, the dissolution of NaOH in water must be exothermic.  
+**C.** The last step is to use the molar mass of NaOH to calculate ΔH<sub>soln</sub>—the heat released when dissolving 1 mol of NaOH:  
+<center><Math code='ΔH_{soln}=\frac{6.2\ g}{7.371\ kJ}=\frac{40\ g}{x\ kJ}' /></center>  
+<center><Math code='x\ =\ 47.55\ kJ' /></center>  
+
+**Answer:** 47.55 kJ
+
+>**Сheck yourself:**  
+>When 0.56 g of solid calcium oxide are dissolved in 100.0 mL of distilled water in a calorimeter, the temperature of the liquid increases from 17.0°C to 22.4°C. The density of water in this temperature range averages 0.9978<Math code='\frac{g}{cm^3}' />. What is ΔH<sub>soln</sub> (in kilojoules per mole)?  
+>Explain a solution strategy using key expressions.  
+
+### 20. Hess's Law  
+
+:::note Notes:
+Hess's law: The overall enthalpy change for a series of reactions is the sum of the enthalpy changes for the individual reactions.  
+When using Hess’s law to calculate the value of ΔH for a reaction, follow this procedure:  
+1) Identify the equation whose ΔH value is unknown and write individual reactions with known ΔH values that, when added together, will give the desired equation.  
+2) Arrange the chemical equations so that the reaction of interest is the sum of the individual reactions.  
+3) If a reaction must be reversed, change the sign of ΔH for that reaction. Additionally, if a reaction must be multiplied by a factor to obtain the correct number of moles of a substance, multiply its ΔH value by that same factor.  
+4) Add together the individual reactions and their corresponding ΔH values to obtain the reaction of interest and the unknown ΔH.  
+:::
+
+#### Example 
+
+When carbon is burned with limited amounts of oxygen gas (O<sub>2</sub>), carbon monoxide (CO) is the main product:  
+(1) 2C<sub>(s)</sub>+O<sub>2(g)</sub>→2CO<sub>(g)</sub> ΔH=−221.0kJ  
+When carbon is burned in excess O<sub>2</sub>, carbon dioxide (CO<sub>2</sub>) is produced:  
+(2) C<sub>(s)</sub>+O<sub>2(g)</sub>→CO<sub>2(g)</sub> ΔH=−393.5kJ  
+Use this information to calculate the enthalpy change per mole of CO for the reaction of CO with O<sub>2</sub> to give CO<sub>2</sub>.  
+**Given:** two balanced chemical equations and their ΔH values  
+**Asked for:** enthalpy change for a third reaction
+
+**Strategy:**  
+**A.** After balancing the chemical equation for the overall reaction, write two equations whose ΔH values are known and that, when added together, give the equation for the overall reaction. (Reverse the direction of one or more of the equations as necessary, making sure to also reverse the sign of ΔH.)  
+**B.** Multiply the equations by appropriate factors to ensure that they give the desired overall chemical equation when added together. To obtain the enthalpy change per mole of CO, write the resulting equations as a sum, along with the enthalpy change for each.  
+
+**Solution:**  
+**A.** We begin by writing the balanced chemical equation for the reaction of interest:  
+(3) CO<sub>(g)</sub>+0.5O<sub>2(g)</sub>→CO<sub>2(g)</sub> ΔH<sub>rxn</sub>=?  
+There are at least two ways to solve this problem using Hess’s law and the data provided. The simplest is to write two equations that can be added together to give the desired equation and for which the enthalpy changes are known. Observing that CO, a reactant in Equation 3, is a product in Equation 1, we can reverse Equation (1) to give  
+2CO<sub>(g)</sub> →2C<sub>(s)</sub>+O<sub>2(g)</sub> ΔH=+221.0kJ  
+Because we have reversed the direction of the reaction, the sign of ΔH is changed. We can use Equation 2 as written because its product, CO<sub>2</sub>, is the product we want in Equation 3:  
+C<sub>(s)</sub> + O<sub>2(g)</sub> →CO<sub>2(s)</sub> ΔH=−393.5kJ  
+**B.** Adding these two equations together does not give the desired reaction, however, because the numbers of C(s) on the left and right sides do not cancel. According to our strategy, we can multiply the second equation by 2 to obtain 2 mol of C(s) as the reactant:  
+C<sub>(s)</sub> +2O<sub>2(g)</sub>→2CO<sub>2(s)</sub> ΔH=−787.0kJ  
+Writing the resulting equations as a sum, along with the enthalpy change for each, gives  
+<img src={cal}/>
+Note that the overall chemical equation and the enthalpy change for the reaction are both for the reaction of 2 mol of CO with O<sub>2</sub>, and the problem asks for the amount per mole of CO. Consequently, we must divide both sides of the final equation and the magnitude of ΔH by 2:  
+<center><Math code='CO_{(g)}\ +0.5O_{2(g)}→CO_{2(g)}\ =\ ΔH=\ −283.0kJ' /></center>  
+
+**Answer:** *-283.0kJ*  
+
+>**Сheck yourself:**  
+>Self-heating cans may be used to warm drinks such as coffee. When the button on the can is pushed, a seal is broken, allowing water and calcium oxide to mix and react. The reaction produces solid calcium hydroxide and releases heat. If more water is used, the calcium hydroxide is produced as a solution instead of as a solid. The equation for the reaction is:  
+>CaO<sub>(s)</sub> + H<sub>2</sub>O<sub>(ℓ)</sub> → Ca(OH)<sub>2(aq)</sub>  
+>Using the following data to calculate the enthalpy change, in kJmol<sup>−1</sup>, for this reaction.  
+>Ca<sub>(s)</sub> + ½O<sub>2(g)</sub> → CaO<sub>(s)</sub> ΔH = −635 kJmol<sup>−1</sup>  
+>H<sub>2(g)</sub> + ½O<sub>2(g)</sub> → H<sub>2</sub>O<sub>(ℓ)</sub> ΔH = −286 kJmol<sup>−1</sup>  
+>Ca<sub>(s)</sub> + O<sub>2(g)</sub> + H<sub>2(g)</sub> → Ca(OH)<sub>2(s)</sub> ΔH = −986 kJmol<sup>−1</sup>  
+>Ca(OH)<sub>2(s)</sub> → Ca(OH)<sub>2(aq)</sub> ΔH = −82 kJmol<sup>−1</sup>  
+>**Explain a solution strategy using key expressions.**  
