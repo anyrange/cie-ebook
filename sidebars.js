@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    "Home": ["introduction", "navigation", "about"],
+    Home: ["introduction", "navigation"],
     "1. Atomic Structure": [
       "atomic-structure/classroom-language",
       "atomic-structure/language-structure",
@@ -183,12 +183,13 @@ module.exports = {
       "сhemical-calculations/students-self-study",
       "сhemical-calculations/teaching-method",
     ],
-    "Appendix": [
+    Appendix: [
       "appendix/1",
       "appendix/2",
       "appendix/3",
       "appendix/4",
       "appendix/5",
     ],
+    Credentials: ["about"],
   },
 };
