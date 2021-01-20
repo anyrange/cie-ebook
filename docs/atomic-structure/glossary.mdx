@@ -7,8 +7,21 @@ hide_title: true
 ---
 
 import AudioButton from "@site/src/components/AudioButton";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
 
-## The structure of an atom:
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Glossary", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
+# The structure of an atom:
 
 <p>
   <strong>atom</strong>
@@ -153,7 +166,9 @@ import AudioButton from "@site/src/components/AudioButton";
   paths.
 </p>
 
-## Electron shell of an atom:
+---
+
+# Electron shell of an atom:
 
 <p>
   <strong>Aufbau principle</strong>
@@ -220,11 +235,16 @@ The Magnetic Quantum Number (m describes the orientation of the orbital in space
   <AudioButton url="/media/32.39dbba8d.mp3" /> – repulsion between the two electrons
   paired within a single orbital.
 </p>
+
+:::note Note
 (Note that this is mutual repulsion within an electron pair, as in the context of
 explaining the low ionization energy of sulfur, not mutual repulsion between electron
 pairs, as in the context of working out the shape of a molecule).
+:::
 
-## Mass spectrometry:
+---
+
+# Mass spectrometry:
 
 <p>
   <strong>mass spectrum</strong>
@@ -263,3 +283,11 @@ pairs, as in the context of working out the shape of a molecule).
   <AudioButton url="/media/40.2c9887c7.mp3" /> – an instrument for finding the relevant
   isotopic abundance of elements and to help identify unknown organic compounds.
 </p>
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p84km7azk21" height="500px" />
+  <Frame src="https://learningapps.org/watch?v=prmwsgs5t21" height="500px" />
+</TabItem>
+
+</Tabs>
