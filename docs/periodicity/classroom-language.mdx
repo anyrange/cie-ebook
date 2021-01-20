@@ -6,7 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
 import AudioButton from '@site/src/components/AudioButton';
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Getting everyone`s attention: <AudioButton url="/media/Getting everyone’s attention.7bfe8ba1.mp3" />
 
@@ -29,3 +42,13 @@ import AudioButton from '@site/src/components/AudioButton';
 * Open your books to page...
 * Turn to page ...
 * Look at the activity 3.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pd0xjrwuj21" height="480px" />
+</TabItem>
+
+</Tabs>
+
+
