@@ -5,6 +5,20 @@ custom_edit_url: null
 hide_table_of_contents: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 Simple FORMULA of asking questions in English:
 
 **there is / there are**  
@@ -59,3 +73,13 @@ Simple FORMULA of asking questions in English:
   </tr>
 
 </table>
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pw114537321  " height="480px" />
+</TabItem>
+
+</Tabs>
+

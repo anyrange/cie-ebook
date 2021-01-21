@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Learning styles. Understanding VARK
 
 One of the most accepted understandings of learning styles is that student learning styles fall into three categories: Visual Learners, Auditory Learners and Kinesthetic Learners. These learning styles are found within educational theorist Neil Fleming’s VARK model of Student Learning. VARK is an acronym that refers to the four types of learning styles: Visual, Auditory, Reading/Writing Preference, and Kinesthetic. (Fleming & Baume, 2006)  
@@ -49,3 +63,11 @@ Referred to as SWOT (“Study Without Tears”), Flemings provides advice on how
     <li>Utilize pictures and photographs that illustrate your idea.</li>
   </dd>
 </dl>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=penais87n21" height="480px" />
+</TabItem>
+
+</Tabs>

@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Blended learning
 
 > Blended learning is a mix of learning online and face-to-face learning spaces and experiences.
@@ -22,3 +36,13 @@ hide_title: true
 - Supplemental Blended Learning
   In this model, students complete either entirely online work to supplement their day-to-day face-to-face learning, or entirely face-to-face learning experiences to supplement the learning gained in online courses and activities.<br/>
   The big idea here is supplementing—critical learning objectives are met entirely in one space while the ‘opposite’ space provides the student with specific supplementing experiences that the other did not or could not provide.<br/>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pisp3rbst21" height="480px" />
+</TabItem>
+
+</Tabs>
+
+

@@ -7,9 +7,30 @@ hide_title: true
 ---
 
 import dictionary from '../../static/img/alkenes/Code_4YvKOw5Jrg.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Dictionary Entry
 
 This is an effective way to  examine  subject-specific  words  and phrases. Students use dictionary  entries  to find the correct meaning of words, their correct spelling, how to pronounce them, and what part of speech a word is. This technique helps students learn words 
 
 <img src={dictionary} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p55o8imsj21" height="410px" />
+</TabItem>
+
+</Tabs>

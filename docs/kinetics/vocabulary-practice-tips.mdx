@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Odd One Out
 
 <table>
@@ -27,3 +41,11 @@ This exercise helps develop classification and thinking skills.
 It gets pupils thinking about similarities and differences which are important for establishing an understanding of concepts.  
 This activity aims to promote discussion and argumentation skills by explaining which word or concept is extra in a set or group of words.  
 Students also practice creative problem solving as they strive to determine which word is the odd one out and explain their choice.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pats5gxan21" height="480px" />
+</TabItem>
+
+</Tabs>

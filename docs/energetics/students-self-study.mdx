@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import Highlight from '@site/src/components/Highlight';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Assignments:
 
@@ -65,3 +78,11 @@ import Highlight from '@site/src/components/Highlight';
 - one of the CLIL techniques [(**Appendix 2**)](../appendix/2);
 - teaching methods; and
 - learning objectives above.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p20iqt9p321" height="480px" />
+</TabItem>
+
+</Tabs>

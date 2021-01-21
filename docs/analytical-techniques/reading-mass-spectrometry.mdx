@@ -6,6 +6,19 @@ hide_table_of_contents: true
 ---
 
 import ReactPlayer from 'react-player';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 #### 🎧️ Listen to the recording and mind pronunciation of words.
 
@@ -28,3 +41,13 @@ Some uses of mass spectrometry include:
 - Identifying elements in new or foreign substances, for example analysing samples from the Mars space probe.
 - Monitoring levels of environmental pollution for example amounts of lead or pesticide in a sample.
 - In biochemical research, for example, determining the composition of protein by comparing it against a database of known compounds.
+
+<Frame src="https://learningapps.org/watch?v=pb8yrzq8n21" height="920px" />
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pmm8pq52521" height="680px" />
+</TabItem>
+
+</Tabs>
+

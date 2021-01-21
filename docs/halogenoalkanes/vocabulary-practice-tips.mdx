@@ -7,9 +7,31 @@ hide_title: true
 ---
 
 import formation from '../../static/img/halogenoalkanes/Code_KhU1Zje1rx.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 
 ## Word formation
 
 Many English words have multiple forms like a noun, a verb, an  adjective,  an adverb.  Students sometimes  make common  mistakes  while  producing  one  word  from  another inventing  nonexistent  words,  for  example,  product  (noun) – producted (verb) instead of produced. Therefore, it is essential, to learn the word with all its derivatives. 
 
 <img src={formation} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=psbkedcej21" height="450px" />
+</TabItem>
+
+</Tabs>

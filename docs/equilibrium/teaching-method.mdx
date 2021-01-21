@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Learning Menu
 
 Learning menus are one of the best ways to incorporate student choice and to differentiate learning.
@@ -32,3 +46,13 @@ The possibilities are truly endless! Consider all the ways you could use G Suite
 - **Google Sheets**
 - **Google My Maps**
 - **Google Sites**
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pwhs6hqb221" height="480px" />
+</TabItem>
+
+</Tabs>
+

@@ -6,6 +6,21 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
+
 ## True Conditional
 
 <table>
@@ -59,3 +74,11 @@ hide_title: true
     electric current.
   </dd>
 </dl>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pdph88a1v21" height="480px" />
+</TabItem>
+
+</Tabs>

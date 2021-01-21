@@ -7,10 +7,33 @@ hide_title: true
 ---
 
 import dictogloss from '../../static/img/alkanes/image--178.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Dictogloss
 
 It is a classroom dictation activity where learners are required to reconstruct a short text by listening and noting down key words, which are then used as a base for  reconstruction.  Worksheets with templates can be used while dictating  sentences  to  students while  they  transcribe.  First, have them write what they hear, then have them write what they see. They will get extra practice listening, reading and writing.
 
-
 <img src={dictogloss} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=penjerw9321" height="450px" />
+</TabItem>
+
+</Tabs>
+
+
+

@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from "@site/src/components/AudioButton";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Glossary
 
@@ -235,3 +248,13 @@ import AudioButton from "@site/src/components/AudioButton";
   <AudioButton url="/media/153.dc445f09.mp3" /> – the bonds are broken using a high
   temperature (400-900<sup>o</sup>C) and a high pressure (70 atmospheres).
 </p>
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=ptzfw3jkt21" height="480px" />
+</TabItem>
+
+</Tabs>
+

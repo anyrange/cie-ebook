@@ -6,6 +6,28 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Information Gap
 
 Information gap activities require students to speak and to practice teamwork, working with their classmates to acquire the missing information. Once they’ve learned the information from their classmates, they can fill the “gap” and complete the task or activity. Students are given different texts about the same topic which contain different information and some gaps where information is missing. Using their texts, learners prepare questions for each other, aiming to find out the missing information.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p8tdhspf321" height="380px" />
+</TabItem>
+
+</Tabs>

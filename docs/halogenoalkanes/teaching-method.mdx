@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Case Study
 
 To prepare students for jobs that haven’t been created yet, we need to teach them how to be great problem solvers so that they’ll be ready for anything. One way to do this is by teaching content and skills using real-world case studies, a learning model that’s focused on reflection during the problem-solving process. It’s similar to project-based learning, but PBL is more focused on students creating a product.  
@@ -19,3 +33,11 @@ You can get started with case studies by tackling relatable questions like these
 
 Addressing questions like these leads students to identify topics they need to learn more about. In researching the first question, for example, students may see that they need to research food chains and nutrition. Students often ask, reasonably, why they need to learn something, or when they’ll use their knowledge in the future. Learning is most successful for students when the content and skills they’re studying are relevant, and case studies offer one way to create that sense of relevance.  
 During the case study learning process, student assessment of learning should be focused on reflection.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=ps8vughs221" height="480px" />
+</TabItem>
+
+</Tabs>

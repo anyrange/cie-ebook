@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from "@site/src/components/AudioButton";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Glossary
 
@@ -66,3 +79,11 @@ import AudioButton from "@site/src/components/AudioButton";
   <strong>transition state</strong>
   <AudioButton url="/media/107.1e907918.mp3" /> – a state through which a reaction passes between the reactants and the products. It is the state that has the highest energy, represented by the highest point on an enthalpy profile diagram or enthalpy level diagram.
 </p>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p4m571re321" height="480px" />
+</TabItem>
+
+</Tabs>

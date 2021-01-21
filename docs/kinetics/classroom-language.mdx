@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Praising your students: <AudioButton url="/media/Praising your students.03d3a62b.mp3" />
 
@@ -29,3 +42,12 @@ import AudioButton from '@site/src/components/AudioButton';
 - You have 10 minutes.
 - Two more minutes...
 - Ok, time is up.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pmwt9dhsj21" height="650px" />
+  <Frame src="https://learningapps.org/watch?v=p25tvf6ej21" height="440px" />
+</TabItem>
+
+</Tabs>

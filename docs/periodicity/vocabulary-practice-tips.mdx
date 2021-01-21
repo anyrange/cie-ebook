@@ -6,6 +6,19 @@ hide_table_of_contents: true
 hide_title: true
 ---
 import conceptmap from '../../static/img/periodicity/concept-map.png';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Concept map
 
@@ -14,3 +27,11 @@ knowledge of subjects (content-related terminology) into a concept diagram.
 Concept maps begin with a main idea in the center and then breaks down into specific branches  
 
 <img src={conceptmap} width="600"/>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pe8gqftic21" height="480px" />
+</TabItem>
+
+</Tabs>

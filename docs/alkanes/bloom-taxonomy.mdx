@@ -6,6 +6,19 @@ hide_table_of_contents: true
 ---
 
 import bloom from '../../static/img/energetics/image--162.png';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 <img src={bloom} width="400"/>
 <br/>
@@ -36,3 +49,11 @@ import bloom from '../../static/img/energetics/image--162.png';
   </tr>
 
 </table>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pkx19jqon21" height="480px" />
+</TabItem>
+
+</Tabs>

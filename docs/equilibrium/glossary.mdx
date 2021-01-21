@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from "@site/src/components/AudioButton";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Glossary
 
@@ -76,3 +89,11 @@ import AudioButton from "@site/src/components/AudioButton";
   <strong>yield</strong>
   <AudioButton url="/media/116.e1d61cb2.mp3" /> – the amount of a substance produced.
 </p>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pce0ocd6321" height="480px" />
+</TabItem>
+
+</Tabs>

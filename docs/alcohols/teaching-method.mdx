@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Effective feedback
 
 A teacher has the distinct responsibility to nurture a student’s learning and to provide feedback in such a manner that the student does not leave the classroom feeling defeated. Here you will find 20 ideas and techniques on how to give effective learning feedback that will leave your students with the feeling they can conquer the world.
@@ -142,3 +156,12 @@ A teacher has the distinct responsibility to nurture a student’s learning and 
   did they learn the most from you as a teacher? If we are open to it, we will quickly
   learn a few things about ourselves as educators.
 </ol>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p2kktzbsc21" height="680px" />
+</TabItem>
+
+</Tabs>
+

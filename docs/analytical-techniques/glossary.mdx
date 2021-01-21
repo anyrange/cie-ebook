@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Glossary
 
@@ -122,3 +135,12 @@ import AudioButton from '@site/src/components/AudioButton';
   <strong>wavenumber</strong>
   <AudioButton url='/media/254.7a812939.mp3' /> - the number of cycles of waves in a unit length; the reciprocal of wavelength (1 / wavelength). Usually measured in m<sup>-1</sup> or cm<sup>-1</sup>
 </p>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pa71uycgk21" height="440px" />
+</TabItem>
+
+</Tabs>
+

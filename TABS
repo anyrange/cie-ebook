@@ -6,7 +6,7 @@ import Frame from "@site/src/components/Frame";
   defaultValue="worksheet"
   values={[
     { label: "Task", value: "worksheet" },
-    { label: "Practise Exercises", value: "exercises" },
+    { label: "Practice Exercises", value: "exercises" },
   ]}
 >
 

@@ -6,6 +6,19 @@ hide_table_of_contents: true
 ---
 
 import bloom from '../../static/img/energetics/image--162.png';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 <img src={bloom} width='400' />
 <br />
@@ -53,3 +66,14 @@ import bloom from '../../static/img/energetics/image--162.png';
     <td>What is the general formula of alkenes?</td>
   </tr>
 </table>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p9gax2z4321" height="480px" />
+  <Frame src="https://learningapps.org/watch?v=pzs0uwt2521" height="420px" />
+  <Frame src="https://learningapps.org/watch?v=pyn4qaqjn21" height="790px" />
+</TabItem>
+
+</Tabs>
+

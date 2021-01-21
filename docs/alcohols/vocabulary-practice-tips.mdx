@@ -7,9 +7,30 @@ hide_title: true
 ---
 
 import grouping from '../../static/img/alcohols/image--248.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Word Grouping
 
 This technique involves dividing a set of words into new, shorter lists by classifying them according to certain attributes. For example, groups can be based on type of word (nouns, adjectives, verbs), topics  and  other  characeristics that  a  teacher  wants  to  revise  or  drill.  Unlike  the  generally unorganized words, the grouped set of words are memorised better.
 
 <img src={grouping} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p0gxbfvut21" height="480px" />
+</TabItem>
+
+</Tabs>

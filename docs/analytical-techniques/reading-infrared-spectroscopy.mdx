@@ -6,6 +6,19 @@ hide_table_of_contents: true
 ---
 
 import ReactPlayer from 'react-player';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 #### 🎧️ Listen to the recording and mind pronunciation of words.
 
@@ -23,3 +36,13 @@ Infrared spectroscopy is an analytical technique that provides information about
 - Following the progress of a reaction involving a change of functional groups (e.g. in the chemical industry to determine the extent of the reaction).
 - To assess the purity of a compound.
 - Modern breathalyzers calculate the percentage of ethanol in the breath by looking at the size of the absorption caused by the C–H bond stretch in the alcohol.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p4jz9n2cn21" height="720px" />
+  <Frame src="https://learningapps.org/watch?v=pdgjizzja21" height="510px" />
+</TabItem>
+
+</Tabs>
+

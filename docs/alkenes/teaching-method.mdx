@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import bloom from '../../static/img/alkenes/Code_VD5NvhyGrO.png';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## The Bloom’s Taxonomy
 
@@ -69,3 +82,11 @@ As mentioned above, the framework can be used to used to create assessments, eva
 </ol>
 
 <img src={bloom} width='600' />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pr48cb8wn21" height="580px" />
+</TabItem>
+
+</Tabs>

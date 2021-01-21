@@ -6,7 +6,19 @@ hide_table_of_contents: true
 hide_title: true
 ---
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
 
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Giving examples: <AudioButton url="/media/Giving examples.0670e256.mp3" />
 
@@ -31,3 +43,11 @@ import AudioButton from '@site/src/components/AudioButton';
 * That is why... 
 * Since, 
 * As
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p366i9htc21" height="480px" />
+</TabItem>
+
+</Tabs>

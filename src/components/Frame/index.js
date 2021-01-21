@@ -5,7 +5,7 @@ const Frame = ({ src, width, height, scrolling, style, title, id }) => {
     <iframe
       title={title}
       src={src}
-      width="100%"
+      width={width ? width : '100%' }
       height={height}
       scrolling={scrolling}
       style={style}

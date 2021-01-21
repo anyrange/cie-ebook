@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Checking previous knowledge: <AudioButton url="/media/Checking previous knowledge.9702b18b.mp3" />
 
@@ -23,3 +36,14 @@ import AudioButton from '@site/src/components/AudioButton';
 - Go on ...
 - I am sure you can answer that.
 - Can you explain that to the rest of the class?
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=ptgov8inn21" height="480px" />
+  <Frame src="https://learningapps.org/watch?v=phn7ks97a21" height="480px" />
+</TabItem>
+
+</Tabs>
+
+

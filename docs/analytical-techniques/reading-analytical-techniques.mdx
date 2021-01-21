@@ -6,6 +6,19 @@ hide_table_of_contents: true
 ---
 
 import ReactPlayer from 'react-player';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 #### 🎧️ Listen to the recording and mind pronunciation of words.
 
@@ -23,3 +36,13 @@ In paper chromatography, the stationary phase is water absorbed onto the cellulo
 In thin-layer chromatography, a liquid solvent is allowed to flow up a piece of TLC plate coated with a solid. The mixture is placed in a small area on the plate and allowed to flow up the plate with the solvent. The distance travelled by a component compared to the solvent is called the retention time and can be used to identify the component.  
 In column chromatography a column is packed with a solid and a solvent moves down the column. The component is added to the solvent at the top of the column. The time it takes for a component to exit the base of the column is called the retention time and can be used to identify the component.  
 In gas chromatography a gaseous mixture is allowed to flow, under pressure and at high temperature, through a column lined with a solid or a solid coated with a liquid. Volatile liquids can also be vaporised and then allowed to flow through the column. The time it takes for a component to exit the column is called the retention time and can be used to identify the component.  
+<Frame src="https://learningapps.org/watch?v=p7gv4uovk21" height="480px" />
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p3x0t4yyt21" height="900px" />
+  <Frame src="https://learningapps.org/watch?v=po811ppok21" height="920px" />
+</TabItem>
+
+</Tabs>
+

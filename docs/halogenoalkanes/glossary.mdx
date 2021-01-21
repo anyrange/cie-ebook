@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Glossary
 
@@ -126,3 +139,12 @@ import AudioButton from '@site/src/components/AudioButton';
   <strong>tertiary carbocations</strong>
   <AudioButton url='/media/226.55f6f9c8.mp3' /> are more stable than primary carbocations due to the inductive effect of the alkyl groups attached to the carbon atom bonded to the halogen.
 </p>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pmacecymc21" height="480px" />
+</TabItem>
+
+</Tabs>
+

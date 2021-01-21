@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## HOW do you lead students in the topic?
 
 - **ODD ONE OUT.** Students are given a set of words with one word that does not fit. They need to find out why and guess the topic from the remaining words. **For example,** Beryllium – Gold – Magnesium – Calcium – Strontium – Barium. Gold is odd word, because the rest are the Alkaline Earth Elements. Thereby, students guess the topic.
@@ -19,3 +33,15 @@ hide_title: true
 - **Video.** Showing any topic-related video can be used to elicit topic from the students.
 - **Unjumble / unscramble the word.** The word that students will solve is a lesson topic.
 - **Showing an experiment** can also be used to introduce a lesson topic.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pn3vskght21" height="550px" />
+</TabItem>
+
+</Tabs>
+
+
+
+

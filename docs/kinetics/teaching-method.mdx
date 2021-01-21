@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practise Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Tiered assignments
 
 Many teachers use differentiated instruction strategies as a way to reach all learners and accommodate each student’s learning style. One very helpful tactic to employ differentiated instruction is called tiered assignments—a technique often used within flexible groups.  
@@ -36,3 +50,12 @@ Tiered assignments can also be differentiated based on product. Teachers can use
 - **Resources**
 
 Tiering resources means that you are matching project materials to student groups based on readiness or instructional need. One flexible group may use a magazine while another may use a traditional textbook. As a tip, you should assign resources based on knowledge and readiness, but also consider the group’s reading level and comprehension.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p2jqxop3n21" height="480px" />
+</TabItem>
+
+</Tabs>
+

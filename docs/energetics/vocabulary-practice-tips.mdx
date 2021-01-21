@@ -7,9 +7,31 @@ hide_title: true
 ---
 
 import placemat from "../../static/img/energetics/placemat.png";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 
 ## Placemat
 
 This strategy allows each student in a group to record their ideas concerning the topic of the problem. It is good to for brainstorming, recording researched ideas. Students sit around the table and write their responses in their spaces.
 
 <img src={placemat} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=prn68khac21" height="480px" />
+</TabItem>
+
+</Tabs>

@@ -7,9 +7,30 @@ hide_title: true
 ---
 
 import mnemonics from "../../static/img/equilibrium/image--156.png";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ### Mnemonics
 
 A mnemonic is a tool that helps us remember certain facts or large amounts of information. They can come in the form of a song, rhyme, acronym, image, phrase, or sentence. Mnemonics help us remember facts and are particularly useful when the order of things is important. For example, if students need to remember sequence of orbitals (s, p, d, f, g, h, I, k), they can be given as: Sober Physicists Don’t Find Giraffes Hiding In Kitchens.6. Equilibrium
 
 <img src={mnemonics} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pg2mwwhk321" height="480px" />
+</TabItem>
+
+</Tabs>

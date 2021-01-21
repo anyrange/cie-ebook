@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Inquiry-based learning
 
 **From a student point-of-view**, inquiry-based learning focuses on investigating an open question or problem. They must use evidence-based reasoning and creative problem-solving to reach a conclusion, which they must defend or present.  
@@ -48,3 +62,11 @@ So you discovered something that generates your own inquiry, and you’ve recrea
 In terms of your content area, imagine a classroom where different kids are presenting their findings on a single, simple aspect of the content. You’d have a classroom that, overall, learns deeper and wider than ever before.  
 One easy way to dip your toes into the learning menu water is a Tic-Tac-Toe menu. A Tic-Tac-Toe can be used for anything from short activities to more long-term projects, both assessment FOR learning (formative) and assessment OF learning (summative).
 In terms of student achievement, the power of their question should help drive the research, the writing, and the presentation. It should help motivate them to become experts in their self-described field. And the more often a student gets a taste of what it feels like to be an expert, in however small a concept, the more they will want that feeling later on in life.
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p9m9yq6vj21" height="580px" />
+</TabItem>
+
+</Tabs>

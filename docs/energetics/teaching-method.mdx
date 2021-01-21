@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## HOW do you group students in the classroom?
 
 **Learning Stations**  
@@ -26,3 +40,11 @@ You can also set-up vocabulary stations. You can easily add or substitute your o
 - **Station 2:** Vocabulary Pictionary
 - **Station 3:** Writing Task
 - **Station 4:** Quizlet/Your Choice
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=ph1re4d1k21" height="480px" />
+</TabItem>
+
+</Tabs>
