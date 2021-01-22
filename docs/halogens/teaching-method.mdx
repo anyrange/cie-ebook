@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Formative assessment strategies
 
 Innovative formative assessment examples are part of what defines any modern classroom. They provide crucial information about what students understand and what they don’t.
@@ -130,3 +144,12 @@ hour. Here are some extension ideas for quick projects:
     <li>Keynote presentations made by students on the topic.</li>
   </dd>
 </dl>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p4wzietr521" height="580px" />
+</TabItem>
+
+</Tabs>
+

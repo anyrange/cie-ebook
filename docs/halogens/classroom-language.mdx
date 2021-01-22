@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Classroom and laboratory objects: <AudioButton url="/media/Classroom and laboratory objects.84bf6317.mp3" />
 
@@ -32,3 +45,12 @@ import AudioButton from '@site/src/components/AudioButton';
 - Microscope
 - Beaker
 - Test tube
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p01wr5k2a21" height="480px" />
+</TabItem>
+
+</Tabs>
+

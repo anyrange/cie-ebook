@@ -6,6 +6,19 @@ hide_table_of_contents: true
 ---
 
 import bloom from '../../static/img/energetics/image--162.png';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 <img src={bloom} width='400' />
 <br />
@@ -57,3 +70,14 @@ import bloom from '../../static/img/energetics/image--162.png';
     <td>As alkaline earth metals have relatively low ionization energies for their first two electrons, what charge do they typically have?</td>
   </tr>
 </table>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pe3arsk6321" height="480px" />
+  <Frame src="https://learningapps.org/watch?v=p4iotpx1v21" height="300px" />
+  <Frame src="https://learningapps.org/watch?v=pczo5smic21" height="620px" />
+</TabItem>
+
+</Tabs>
+

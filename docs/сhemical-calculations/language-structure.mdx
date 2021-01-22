@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import Math from '@site/src/components/Math';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## main Math EXPRESSIONS
 
@@ -398,3 +411,12 @@ import Math from '@site/src/components/Math';
     <td>a double prime</td>
   </tr>
 </table>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=payad6n6321" height="480px" />
+</TabItem>
+
+</Tabs>
+

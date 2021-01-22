@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Peer assessment
 
 Peer assessment is a broad term for a range of activities that include students in the act of evaluating and providing feedback on the work of their peers. It can be formative, where students give feedback on each other’s drafts before a final product is submitted, or summative, where students use a rubric to grade final submissions.  
@@ -52,3 +66,13 @@ Peer assessment can take many forms that can vary depending on the learning goal
     reinforcing the learning that occurred in the giving of peer feedback
   </li>
 </ol>
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p0o8x713a21" height="480px" />
+</TabItem>
+
+</Tabs>
+

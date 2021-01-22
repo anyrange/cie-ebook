@@ -7,9 +7,31 @@ hide_title: true
 ---
 
 import dictionary from '../../static/img/alkines/image--384.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## “Picture Dictionary”
 
 A  dictionary  where a  word  is  displayed in the drawing form. Such  drawings  help students  memorize words more effectively as it is a more vivid and  easier  way  to remember. It is good for students-visuals.
 
 <img src={dictionary} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pvbw06nrn21" height="480px" />
+</TabItem>
+
+</Tabs>
+

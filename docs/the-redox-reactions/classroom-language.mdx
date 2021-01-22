@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Elaborating correct responses from students: <AudioButton url="/media/Elaborating correct responses from students.0f061d83.mp3" />
 
@@ -26,3 +39,12 @@ import AudioButton from '@site/src/components/AudioButton';
 - What do you mean by...?
 - Can you elaborate more on that?
 - Sorry. Did you mean...?
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pstpwvjtv21" height="420px" />
+</TabItem>
+
+</Tabs>
+

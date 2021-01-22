@@ -7,9 +7,33 @@ hide_title: true
 ---
 
 import jigsaw from '../../static/img/halogens/image--363.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## “Jigsaw Reading”
 
 Students work with one text which is  divided  into  3-4-5  sections.  The teacher splits the class into groups of four learners. Each group is given a copy of a different part of the text: a learner A gets a text A, B a text B and so on. A new task is provided which requires all the learners to gather into new group ABCD where they communicate about what they have just read to each other.
 
 <img src={jigsaw} width="600" />
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=ph4vdnmo521" height="480px" />
+</TabItem>
+
+</Tabs>
+
+

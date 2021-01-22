@@ -7,9 +7,31 @@ hide_title: true
 ---
 
 import notes from '../../static/img/Thermodynamics/image--407.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## “Cornell Notes”
 
 This  graphic  organiser  is used to take notes. Using this system, students break down their  copybook  into  three sections. It can be used while listening  to  or  watching  a video.  Students  record  the main idea, key questions on the left-hand column, while keywords, main details and ideas on the right-hand column. At the bottom, at the summary section students review topics.
 
 <img src={notes} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p1r32kn6221" height="580px" />
+</TabItem>
+
+</Tabs>
+

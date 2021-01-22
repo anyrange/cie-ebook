@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Glossary
 
@@ -58,3 +71,12 @@ import AudioButton from '@site/src/components/AudioButton';
   <strong>thermal stability</strong>
   <AudioButton url='/media/304.3f6d0fff.mp3' /> – the degree of resistance to thermal decomposition a compound has.
 </p>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p3r4dn7fn21" height="480px" />
+</TabItem>
+
+</Tabs>
+

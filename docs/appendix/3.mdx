@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ### 🧩 XXI CENTURY COMPETENCES (soft skills)
 
 <strong>1 – Communication</strong>
@@ -441,3 +455,14 @@ Attention to detail allows students to be both thorough and accurate in their wo
     </ul>
   </div>
 </section>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pumw9twx221" height="480px" />
+  <Frame src="https://learningapps.org/watch?v=pd1wdjxi521" height="480px" />
+  <Frame src="https://learningapps.org/watch?v=pk2rze73321" height="480px" />
+</TabItem>
+
+</Tabs>
+

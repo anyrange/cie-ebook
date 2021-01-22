@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Laboratory precautions and safety procedures
 
 ### LAB SAFETY
@@ -46,3 +60,13 @@ Greenhouse materials, for example, are often sprayed with hazardous materials.
 - Leave tables clean when you leave the lab. Throw away any trash you generate. Wipe up water, other liquids, soil, and plant material. Be sure to discard extra plant material in the designated containers.
 - Return the prepared slides in the proper slide tray.
 - Take the slide off the stage of your microscope, put the scanning (3X) lens in place, and return your microscope to its proper place in the microscope cabinet.
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=ppovbixn321" height="650px" />
+</TabItem>
+
+</Tabs>
+

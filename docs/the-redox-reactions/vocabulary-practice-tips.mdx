@@ -7,9 +7,31 @@ hide_title: true
 ---
 
 import egg from '../../static/img/The redox reactions/image--333.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## “I am a...”
 
 Students  are  given a word or a phrase according  to  the topic, and they need to write or tell about a process in the first person. For example, ask  your  student to tell a story in the first person about a journey of electron in redox reaction. They have to explain what happens in various stages of this particular system.
 
 <img src={egg} width="600" />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pru56c8ga21" height="480px" />
+</TabItem>
+
+</Tabs>
+

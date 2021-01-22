@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ## Differentiated instruction strategies
 
 As  students with diverse learning styles fill the classroom, many teachers don’t always have the time to plan lessons that use differentiated instruction (DI) to suit their distinct aptitudes.  
@@ -140,3 +154,13 @@ Include a clear rubric for each type of project, which clearly defines expectati
 </dl>
 As  well  as  benefiting  students,  this  differentiated  instruction  strategy  will  clearly showcase distinct work and learning styles.
 </ol>
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pb1gh83v321" height="480px" />
+</TabItem>
+
+</Tabs>
+

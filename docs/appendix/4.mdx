@@ -51,6 +51,19 @@ import flame from '../../static/img/Appendix 4/image--530.png';
 import balloon from '../../static/img/Appendix 4/image--531.png';
 import balanceWeight from '../../static/img/Appendix 4/image--532.png';
 import stopcock from '../../static/img/Appendix 4/image--533.png';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ### <center>Picture Dictionary – Laboratory Equipment</center>
 
@@ -183,3 +196,13 @@ import stopcock from '../../static/img/Appendix 4/image--533.png';
   </tr>
   
 </table>
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pujziazfj21" height="480px" />
+</TabItem>
+
+</Tabs>
+

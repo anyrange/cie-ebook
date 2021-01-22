@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Requests: <AudioButton url="/media/Requests.b76cb747.mp3" />
 
@@ -31,3 +44,12 @@ import AudioButton from '@site/src/components/AudioButton';
 - How did you do this?
 - Is this correct?
 - Can you explain it to others?
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p3za7611a21" height="400px" />
+</TabItem>
+
+</Tabs>
+

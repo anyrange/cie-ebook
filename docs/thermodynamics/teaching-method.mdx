@@ -6,6 +6,19 @@ hide_table_of_contents: true
 hide_title: true
 ---
 import bloom from '../../static/img/Thermodynamics/image--428.png'
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Reflection to increase learning aware
 
@@ -47,3 +60,12 @@ For  each  stage  of  Bloom's taxonomy,  think  of  an appropriate question.
 This  also  clarifies  why  "what can I do better" might be a bit of a tricky question to ask at first, as this is already a higher level of Bloom's taxonomy.  
 
 <img src={bloom} width='400' />
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p2tr57jgt21" height="680px" />
+</TabItem>
+
+</Tabs>
+

@@ -7,6 +7,19 @@ hide_title: true
 ---
 
 import AudioButton from '@site/src/components/AudioButton';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 ## Managing time: <AudioButton url="/media/Managing time.18947c92.mp3" />
 
@@ -30,3 +43,13 @@ import AudioButton from '@site/src/components/AudioButton';
 - See you tomorrow afternoon.
 - See you in room 107 after the break.
 - Have a good holiday.
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=p344zcd7c21" height="480px" />
+</TabItem>
+
+</Tabs>
+

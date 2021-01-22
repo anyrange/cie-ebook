@@ -14,6 +14,19 @@ import nasty from '../../static/img/Appendix 2/Code_w9j8A3iGwV.png';
 import crossword from '../../static/img/Appendix 2/Code_PqtedyTWdB.png';
 import concept from '../../static/img/Appendix 2/Code_AKayqVsQhr.png';
 import pizza from '../../static/img/Appendix 2/Code_1doy9NbaIV.png';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 # 📚CLIL ACTIVITIES
 
@@ -5659,3 +5672,15 @@ import pizza from '../../static/img/Appendix 2/Code_1doy9NbaIV.png';
     </td>
   </tr>
 </table>
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pwj4q33d321" height="480px" />
+  <Frame src="https://learningapps.org/watch?v=p3qp84yg521" height="480px" />
+  <Frame src="https://learningapps.org/watch?v=pzq4m581521" height="480px" />
+</TabItem>
+
+</Tabs>
+

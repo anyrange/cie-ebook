@@ -6,6 +6,20 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
 ### <center>In the Chemistry Laboratory</center>
 
 #### Safety precautions:
@@ -833,3 +847,14 @@ hide_title: true
     </td>
   </tr>
 </table>
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=prvhpta3n21" height="500px" />
+  <Frame src="https://learningapps.org/watch?v=pyq032jzj21" height="360px" />
+</TabItem>
+
+</Tabs>
+
