@@ -1,13 +1,13 @@
 module.exports = {
   title: "⠀",
-  tagline: "web version of book",
-  url: "https://chemistry-in-english-ebook.netlify.app",
+  tagline: "chemistry, ebook, chemistry ebook, cie-ebook",
+  url: "https://cie-ebook.ml/",
   baseUrl: "/",
   onBrokenMarkdownLinks: "warn",
   onBrokenLinks: "warn",
   favicon: "img/favicon.ico",
   titleDelimiter: "⠀",
-  organizationName: "wsehl & thaseyour",
+  organizationName: "https://github.com/anyrange",
   projectName: "cie-ebook",
   themeConfig: {
     navbar: {
@@ -20,6 +20,11 @@ module.exports = {
         {
           to: "glossary",
           label: "Chemical Glossary App",
+          position: "left",
+        },
+        {
+          to: "https://www.cambridgeenglish.org/test-your-english/",
+          label: "Test Your English",
           position: "left",
         },
       ],
@@ -51,12 +56,6 @@ module.exports = {
       backgroundColor: "#000",
       textColor: "#fff",
       isCloseable: true,
-    },
-    */
-    /*
-    googleAnalytics: {
-      trackingID: "G-G57B9BRB2N",
-      anonymizeIP: true,
     },
     */
     gtag: {
