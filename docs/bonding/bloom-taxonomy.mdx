@@ -7,10 +7,26 @@ hide_title: true
 ---
 
 import Theme from "@site/src/components/Theme";
-
-<Theme bonding />
+import bloom from "@site/static/img/energetics/image--162.png";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
 
 # Bloom Taxonomy
+
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
+
+
+
+<img src={bloom} width="400"/>
 
 Simple FORMULA of asking questions in English: **QuASM (modal verb Can)**
 
@@ -62,3 +78,13 @@ Simple FORMULA of asking questions in English: **QuASM (modal verb Can)**
   </tr>
 
 </table>
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pbmm0q10j21" height="480px" />
+</TabItem>
+
+</Tabs>
+
+<Theme bonding />
