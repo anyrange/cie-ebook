@@ -7,8 +7,19 @@ hide_title: true
 ---
 
 import Theme from "@site/src/components/Theme";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
 
-<Theme atomicStructure />
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 # Student's self-study
 
@@ -93,3 +104,15 @@ import Theme from "@site/src/components/Theme";
 - one of the CLIL techniques [(**Appendix 2**)](../appendix/2);
 - teaching methods; and
 - learning objectives above.
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pdnv4om7j21" height="480px" />
+</TabItem>
+
+</Tabs>
+
+<Theme atomicStructure />
+

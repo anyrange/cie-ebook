@@ -8,8 +8,19 @@ hide_title: true
 
 import AudioButton from '@site/src/components/AudioButton';
 import Theme from "@site/src/components/Theme";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
 
-<Theme atomicStructure />
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 # Classroom language
 
@@ -34,3 +45,15 @@ import Theme from "@site/src/components/Theme";
 - Look at the slide.
 - Draw your attention to the picture...
 - What can you see in the picture?
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pgu6ic0zn21" height="480px" />
+</TabItem>
+
+</Tabs>
+
+<Theme atomicStructure />
+

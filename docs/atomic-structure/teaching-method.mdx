@@ -7,8 +7,19 @@ hide_title: true
 ---
 
 import Theme from "@site/src/components/Theme";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Frame from "@site/src/components/Frame";
 
-<Theme atomicStructure />
+<Tabs
+  defaultValue="worksheet"
+  values={[
+    { label: "Task", value: "worksheet" },
+    { label: "Practice Exercises", value: "exercises" },
+  ]}
+>
+
+<TabItem value="worksheet">
 
 # Teaching method
 
@@ -32,3 +43,15 @@ import Theme from "@site/src/components/Theme";
 - **students are grouped according to their responses:** a teacher asks a question or gives a quiz, and students join into groups according to how they think or scored.
 - **students are given options: ** they are told different groups and tasks types, and students choose themselves what they want to do.
 - **students are grouped by four corners ABCD: ** A – one corner of the classroom, B – the second corner, C – the third corner and D – the last corner.Each corner has its question, taskor a subtopic to study.
+
+
+</TabItem>
+
+<TabItem value="exercises">
+  <Frame src="https://learningapps.org/watch?v=pjdzf0i9521" height="480px" />
+</TabItem>
+
+</Tabs>
+
+<Theme atomicStructure />
+
