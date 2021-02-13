@@ -1,6 +1,27 @@
 import { createGlobalStyle, css } from "styled-components";
 
 const Theme = createGlobalStyle`
+    .BLOOM tr:nth-child(1) {
+      background: #f47227;
+    }
+    .BLOOM tr:nth-child(2) {
+      background: #fab115;
+    }
+    .BLOOM tr:nth-child(3) {
+      background: #60c33f;
+    }
+    .BLOOM tr:nth-child(4) {
+      background: #5bcae9;
+    }
+    .BLOOM tr:nth-child(5) {
+      background: #5990d0;
+    }
+    .BLOOM tr:nth-child(6) {
+      background: #b062b8;
+    }
+    .BLOOM td {
+      border: 1px solid black;
+    }
     ${(props) =>
       props.introduction &&
       css`
