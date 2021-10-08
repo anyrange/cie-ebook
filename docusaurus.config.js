@@ -9,6 +9,7 @@ module.exports = {
   titleDelimiter: "⠀",
   organizationName: "https://github.com/anyrange",
   projectName: "cie-ebook",
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: "CIE-Ebook",
@@ -32,7 +33,6 @@ module.exports = {
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} cie-ebook, Built with Docusaurus.`,
     },
-    sidebarCollapsible: true,
     hideableSidebar: true,
     colorMode: {
       defaultMode: "light",
@@ -131,6 +131,7 @@ module.exports = {
           sidebarPath: require.resolve("./src/sidebar.js"),
           editUrl: "https://github.com/anyrange/cie-ebook/tree/master",
           routeBasePath: "/",
+          sidebarCollapsible: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -138,7 +139,6 @@ module.exports = {
         sitemap: {
           changefreq: "weekly",
           priority: 0.5,
-          trailingSlash: false,
         },
       },
     ],
