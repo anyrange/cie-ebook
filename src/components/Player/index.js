@@ -1,12 +1,22 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import "./player.css";
+
+const playerWrapper = {
+  position: "relative",
+  paddingTop: "56.25%",
+};
+
+const reactPlayer = {
+  position: "absolute",
+  top: 0,
+  left: 0,
+};
 
 const Player = ({ url }) => (
-  <div className="player-wrapper">
+  <div style={playerWrapper}>
     <ReactPlayer
       url={url}
-      className="react-player"
+      style={reactPlayer}
       width="100%"
       height="100%"
       controls={true}

@@ -10,6 +10,7 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import Frame from "@site/src/components/Frame";
 import Theme from "@site/src/components/Theme";
+import Player from "@site/src/components/Player";
 
 <Theme analyticalTechniques />
 
@@ -37,25 +38,39 @@ import Theme from "@site/src/components/Theme";
       post-watching
     </em> <strong>exercises.</strong>
   </dt>
-
   <dd>
     <li>
-      <a href='https://www.youtube.com/watch?v=9HfJNnoRMPA&list=UUq8D30gXUJvMsPqf6gnZlLg&index=164'>
+      <a href="#InfraredSpectroscopy">
         A Simple explanation of Infrared Spectroscopy
       </a>
     </li>
     <li>
-      <a href='https://www.youtube.com/watch?v=9HfJNnoRMPA&list=UUq8D30gXUJvMsPqf6gnZlLg&index=164'>
+      <a href="#NMRSpectrometer">
         Simple explanation of the Proton NMR Spectrometer
       </a>
     </li>
     <li>
-      <a href='https://www.youtube.com/watch?v=J8r8hN05xXk'>
-        Paper & Thin Layer Chromatography
-      </a>
+      <a href="#LayerChromatography">Paper & Thin Layer Chromatography</a>
     </li>
   </dd>
 </dl>
+
+<details>
+  <summary id="InfraredSpectroscopy">
+    A Simple explanation of Infrared Spectroscopy
+  </summary>
+  <Player url="https://www.youtube.com/watch?v=9HfJNnoRMPA&list=UUq8D30gXUJvMsPqf6gnZlLg&index=164" />
+</details>
+<details>
+  <summary id="NMRSpectrometer">
+    Simple explanation of the Proton NMR Spectrometer
+  </summary>
+  <Player url="https://www.youtube.com/watch?v=gaGUpACXijE&list=UUq8D30gXUJvMsPqf6gnZlLg&index=166" />
+</details>
+<details>
+  <summary id="LayerChromatography">Paper & Thin Layer Chromatography</summary>
+  <Player url="https://www.youtube.com/watch?v=J8r8hN05xXk" />
+</details>
 
 ### Learning objectives:
 
@@ -143,4 +158,3 @@ import Theme from "@site/src/components/Theme";
 </TabItem>
 
 </Tabs>
-
